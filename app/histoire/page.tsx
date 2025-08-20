@@ -1,8 +1,17 @@
+import Image from "next/image";
+
 export default function HistoryPage() {
   return (
     <main className="min-h-screen p-6">
       <h1 className="text-3xl font-bold mb-4">HISTOIRE & PATRIMOINE</h1>
       <div className="mt-6 space-y-2">
+        <Image
+                  src="/images/chateau.jpg" // path relative to /public
+                  alt="Château de LAFORGE près Souillac (Lot)"
+                  width={800}
+                  height={500}
+                  className="rounded-lg"
+                />
         <p>
           Le lieu doit son nom à l'ancienne activité de forge ou fonderie qui füt créée par la famille DE COUSTIN, probablement au début du XVIème siècle.
         </p>
