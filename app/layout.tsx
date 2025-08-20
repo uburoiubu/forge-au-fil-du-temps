@@ -14,14 +14,12 @@ export const metadata: Metadata = {
   description: "La Forge au fil du temps est une association dont le but est de valoriser et d'animer l’ancienne forge de Bourzolles à Souillac."
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{ children: React.ReactNode }>) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="fr">
-      <body className={`${ebGaramond.className} antialiased min-h-screen flex flex-col`}>
+      <body className="min-h-[100svh] flex flex-col"> {/* svh = mobile-safe */}
         <Navbar />
-        <main className="container mx-auto px-4 mt-6">
+        <main className="flex-1"> {/* grows to push footer down */}
           {children}
         </main>
         <Footer />
