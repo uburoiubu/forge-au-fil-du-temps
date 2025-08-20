@@ -9,7 +9,6 @@ export default function Home() {
           alt="Ancienne forge à Souillac"
           width={800}
           height={500}
-          className="rounded-lg"
         />
         <p>
           <b>La Forge au fil du temps</b> est une association dont le but est de
