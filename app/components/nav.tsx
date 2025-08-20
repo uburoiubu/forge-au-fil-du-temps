@@ -14,15 +14,20 @@ const navItems = [
 
 export function Navbar() {
   const [open, setOpen] = useState(false);
+
   return (
     <nav className="sticky top-0 z-50 w-full bg-background/90 backdrop-blur supports-[backdrop-filter]:bg-background/70 border-b">
       <div className="container mx-auto flex items-center justify-between px-4 py-3 text-xl leading-relaxed">
-        <Link href="/" className="font-semibold text-2xl">La Forge au fil du temps</Link>
+        <Link href="/" className="font-semibold text-2xl">
+          La Forge au fil du temps
+        </Link>
 
-        {/* Hamburger (visible on mobile) */}
+        {/* Hamburger (mobile only) */}
         <button
+          type="button"
           className="md:hidden p-2"
           aria-label="Ouvrir le menu"
+          aria-expanded={open}
           onClick={() => setOpen(!open)}
         >
           <span className="block w-6 h-0.5 bg-current mb-1" />
@@ -31,10 +36,15 @@ export function Navbar() {
         </button>
 
         {/* Desktop menu */}
-        <ul className="hidden md:flex items-center gap-x-6 overflow-x-auto">
+        <ul className="hidden md:flex flex-wrap items-center gap-x-6">
           {navItems.map((it) => (
             <li key={it.href}>
-              <Link className="px-3 py-1 hover:underline" href={it.href}>{it.label}</Link>
+              <Link
+                className="px-3 py-1 hover:underline"
+                href={it.href}
+              >
+                {it.label}
+              </Link>
             </li>
           ))}
         </ul>
@@ -42,10 +52,14 @@ export function Navbar() {
 
       {/* Mobile menu (collapsible) */}
       {open && (
-        <ul className="hidden md:flex items-center gap-2">
+        <ul className="md:hidden absolute left-0 top-full w-full bg-background/95 backdrop-blur px-4 pb-3 space-y-2 shadow-md text-xl">
           {navItems.map((it) => (
             <li key={it.href}>
-              <Link className="block px-3 py-2 rounded hover:bg-neutral-100 dark:hover:bg-neutral-800" href={it.href} onClick={() => setOpen(false)}>
+              <Link
+                className="block px-3 py-2 rounded hover:bg-neutral-100 dark:hover:bg-neutral-800"
+                href={it.href}
+                onClick={() => setOpen(false)}
+              >
                 {it.label}
               </Link>
             </li>
