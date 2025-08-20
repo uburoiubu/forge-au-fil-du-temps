@@ -17,8 +17,8 @@ function ArrowIcon() {
 
 export default function Footer() {
   return (
-    <footer className="mb-16">
-      <ul className="font-sm mt-8 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
+    <footer className="mb-16 flex flex-col items-center text-center">
+      <ul className="font-sm mt-8 flex flex-col items-center space-y-2 text-neutral-600 md:flex-row md:space-x-6 md:space-y-0 dark:text-neutral-300">
         <li>
           <a
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
@@ -27,7 +27,7 @@ export default function Footer() {
             href="https://www.facebook.com/LaForgeSouillac/"
           >
             <ArrowIcon />
-            <p className="ml-2 h-7">facebook</p>
+            <span className="ml-2 h-7">facebook</span>
           </a>
         </li>
         <li>
@@ -38,10 +38,11 @@ export default function Footer() {
             href=""
           >
             <ArrowIcon />
-            <p className="ml-2 h-7">instagram</p>
+            <span className="ml-2 h-7">instagram</span>
           </a>
         </li>
       </ul>
+
       <p className="mt-8 text-neutral-600 dark:text-neutral-300">
         © {new Date().getFullYear()} La Forge au fil du temps, tous droits réservés
       </p>
