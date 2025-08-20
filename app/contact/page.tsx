@@ -8,9 +8,9 @@ export default function ContactPage() {
       </p>
 
       <div className="mt-6 space-y-2">
-        <p>📍 Adresse : Bourzolles, Souillac, Lot</p>
-        <p>📧 Email : TODO</p>
-        <p>📞 Téléphone : TODO</p>
+        <p>📍 Adresse : La Forge, 46200 Souillac</p>
+        <p>📧 Email : virginie.destrel@wanadoo.fr</p>
+        <p>📞 Téléphone : 06 80 85 80 85</p>
       </div>
 
     </main>
