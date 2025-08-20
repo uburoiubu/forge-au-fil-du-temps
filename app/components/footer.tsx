@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 function ArrowIcon() {
   return (
     <svg
@@ -19,6 +21,8 @@ export default function Footer() {
   return (
     <footer className="not-prose mb-16 flex flex-col items-center text-center">
       <ul className="font-sm mt-8 flex flex-col items-center space-y-2 text-neutral-600 md:flex-row md:space-x-6 md:space-y-0 dark:text-neutral-300">
+        
+        {/* Facebook */}
         <li>
           <a
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
@@ -30,9 +34,34 @@ export default function Footer() {
             <span className="ml-2 h-7">facebook</span>
           </a>
         </li>
+
+        {/* Instagram */}
+        <li>
+          <a
+            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://www.instagram.com/your_instagram_here" // <-- replace with your real handle
+          >
+            <ArrowIcon />
+            <span className="ml-2 h-7">instagram</span>
+          </a>
+        </li>
+
+        {/* Contact (internal link) */}
+        <li>
+          <Link
+            href="/contact"
+            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+          >
+            <ArrowIcon />
+            <span className="ml-2 h-7">contact</span>
+          </Link>
+        </li>
+
       </ul>
 
-      <p className="mt-8 text-neutral-600 dark:text-neutral-300">
+      <p className="mt-4 text-neutral-600 dark:text-neutral-300">
         © {new Date().getFullYear()} <b>La Forge au fil du temps</b>, tous droits réservés
       </p>
     </footer>
