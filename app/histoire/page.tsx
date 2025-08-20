@@ -11,7 +11,7 @@ export default function HistoryPage() {
           height={500}
           className="mx-auto rounded-lg pr-12 pl-12"
         />
-      <div className="mt-6 space-y-2 text-xl leading-relaxed pr-12 pl-12">
+      <div className="mt-6 space-y-2 text-xl leading-relaxed pr-10 pl-10">
 
         <p></p>
         <p>

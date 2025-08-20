@@ -13,7 +13,7 @@ export default async function Page() {
       <p className="text-right">
         <em>Association loi 1901</em>
       </p>
-      <div className="mt-6 space-y-2 text-xl text-center pl-16 pr-16">
+      <div className="mt-6 space-y-2 text-xl text-center pl-10 pr-10">
         <p>
           L'association a été créée en août 2018, sous l'impulsion de la
           nouvelle propriétaire d'une partie site, Virginie DESTREL, bien
