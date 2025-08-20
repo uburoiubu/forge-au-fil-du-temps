@@ -1,11 +1,10 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { EB_Garamond } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "./components/nav";
 import Footer from "./components/footer";
 
-const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
-const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
+const ebGaramond = EB_Garamond({ subsets: ["latin"], variable: "--font-garamond" });
 
 
 export const viewport = { width: 'device-width', initialScale: 1 };
@@ -20,7 +19,7 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="fr">
-      <body className="antialiased min-h-screen flex flex-col">
+      <body className={`${ebGaramond.className} antialiased min-h-screen flex flex-col`}>
         <Navbar />
         <main className="container mx-auto px-4 mt-6">
           {children}
