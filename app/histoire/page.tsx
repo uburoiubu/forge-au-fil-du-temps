@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export default function HistoryPage() {
   return (
-    <main className="min-h-screen p-6">
+    <main className="min-h-screen p-6 text-justify">
       <h1 className="text-3xl font-bold mb-4">HISTOIRE & PATRIMOINE</h1>
-      <div className="mt-6 space-y-2 text-2xl leading-relaxed">
+      <div className="mt-6 space-y-2 text-xl leading-relaxed">
         <Image
                   src="/images/chateau.jpg" // path relative to /public
                   alt="Château de LAFORGE près Souillac (Lot)"
@@ -15,10 +15,7 @@ export default function HistoryPage() {
           Le lieu doit son nom à l'ancienne activité de forge ou fonderie qui füt créée par la famille DE COUSTIN, probablement au début du XVIème siècle.
         </p>
         <p>
-          Les DE COUSTIN ont acquis leur noblesse et leur fortune à la cour du roi François ler.
-        </p>
-        <p>
-          Jean DE COUSTIN fût le premier de la famille à s'installer à Bourzolles, où il fit bâtir son château au bord de la Borrèze.
+          Les DE COUSTIN ont acquis leur noblesse et leur fortune à la cour du roi François ler. Jean DE COUSTIN fût le premier de la famille à s'installer à Bourzolles, où il fit bâtir son château au bord de la Borrèze.
         </p>
         <p>
           Les seigneurs DE COUSTIN, profitant des progrès de la sidérurgie, établirent une forge sur la rivière Borrèze, à l'emplacement d'un ancien moulin dit du Boulet. A cette époque, l'exploitation se composait d'un haut fourneau (toujours présent sur le site), avec pour force motrice, la Borrèze (qui alimentait une retenue d'eau de 800m de long. 7m de large et 2m de profondeur), et d'un atelier de moulage C'était une forge paysanne, intégrée dans l'espace villageois, et qui bénéficiait de matières premières à proximité: minières de fer (Cressensac, Nespouls, Nadaillac), carrières de castine et de sable, vastes forêts et d'une main d'œuvre peu coûteuse, fournie par les paysans qui, sans abandonner leurs terres, amélioraient leur quotidien en travaillant à la forge durant la période de l'année où l'eau est abondante et les travaux des champs peu importants.
