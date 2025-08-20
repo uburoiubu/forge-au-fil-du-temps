@@ -6,9 +6,9 @@ export const metadata = { title: "Histoire & Patrimoine" };
 
 export default async function Page() {
   return (
-    <main className="prose mx-auto px-4">
-      <h1 className="text-3xl font-bold mb-4">ASSOCIATION « LA FORGE AU FIL DU TEMPS »</h1>
-      <div className="mt-6 space-y-2 text-xl leading-relaxed">
+    <main className="min-h-screen p-6 text-justify">
+      <h1 className="text-3xl font-bold mb-4">ASSOCIATION « LA FORGE AU FIL DU TEMPS»</h1>
+      <div className="mt-6 space-y-2 text-xl">
         <p><em>(Association loi 1901)</em></p>
 
         <p>L'association a été créée en août 2018, sous l'impulsion de la nouvelle propriétaire d'une partie site, Virginie DESTREL, bien consciente de l'attachement de nombreux Souillagais à ce lieu et à son histoire, aussi bien humaine qu'industrielle: tout d'abord, l'usine de forge avec son bief et les vestiges du haut fourneau, la maison de maître et le parc. Ensuite, la première centrale hydroélectrique ayant alimenté Souillac, et les 3 grottes donc la grotte chapelle et les ruines de la tour médiévale «Rocafor, appartenant à Florence LACOSTE.</p>

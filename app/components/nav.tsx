@@ -31,7 +31,7 @@ export function Navbar() {
         </button>
 
         {/* Desktop menu */}
-        <ul className="hidden md:flex items-center gap-2">
+        <ul className="hidden md:flex items-center gap-x-6 whitespace-nowrap overflow-x-auto">
           {navItems.map((it) => (
             <li key={it.href}>
               <Link className="px-3 py-1 hover:underline" href={it.href}>{it.label}</Link>

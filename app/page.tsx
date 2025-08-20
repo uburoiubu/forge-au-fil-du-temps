@@ -6,7 +6,7 @@ export default function Home() {
       <main className="flex flex-col items-center gap-8">
         <div className="w-full h-[300px] relative">
           <Image
-            src="/images/forge-cover.jpeg"
+            src="/images/forge-cover.jpg"
             alt="Ancienne forge à Souillac"
             fill
             className="object-cover"
