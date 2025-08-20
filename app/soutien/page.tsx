@@ -1,11 +1,26 @@
-export default function HistoryPage() {
-  return (
-    <main className="min-h-screen p-6">
-      <h1 className="text-3xl font-bold mb-4">Soutenir la Forge</h1>
-      <div className="mt-6 space-y-2">
-        <p>...</p>
-      </div>
+import fs from "node:fs/promises";
+import path from "node:path";
+import { CustomMDX } from "../components/mdx";
 
+export const metadata = { title: "Histoire & Patrimoine" };
+
+export default async function Page() {
+  const contentDir = path.join(process.cwd(), "content");
+  const filePath = path.join(contentDir, "association.mdx");
+
+  // DEBUG (shows in your terminal running `npm run dev`)
+  console.log("CWD:", process.cwd());
+  console.log("Looking for:", filePath);
+  try {
+    console.log("Content entries:", await fs.readdir(contentDir));
+  } catch (e) {
+    console.error("Cannot read content dir:", e);
+  }
+
+  const file = await fs.readFile(filePath, "utf8");
+  return (
+    <main className="prose mx-auto px-4">
+      <CustomMDX source={file} />
     </main>
-  )
+  );
 }

@@ -6,7 +6,7 @@ const navItems = [
   { href: "/", label: "Accueil" },
   { href: "/histoire", label: "Histoire & Patrimoine" },
   { href: "/today", label: "La Forge aujourd'hui" },
-  { href: "/visiter", label: "Visiter la Forge" },
+  { href: "/visiter", label: "Visiter" },
   { href: "/events", label: "Événements & Activités" },
   { href: "/galerie", label: "Galerie" },
   { href: "/contact", label: "Contact" },
