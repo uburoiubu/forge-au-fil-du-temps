@@ -16,8 +16,8 @@ export function Navbar() {
   const [open, setOpen] = useState(false);
   return (
     <nav className="sticky top-0 z-50 w-full bg-background/90 backdrop-blur supports-[backdrop-filter]:bg-background/70 border-b">
-      <div className="container mx-auto flex items-center justify-between px-4 py-3">
-        <Link href="/" className="font-semibold">La Forge au fil du temps</Link>
+      <div className="container mx-auto flex items-center justify-between px-4 py-3 text-xl leading-relaxed">
+        <Link href="/" className="font-semibold text-2xl">La Forge au fil du temps</Link>
 
         {/* Hamburger (visible on mobile) */}
         <button
