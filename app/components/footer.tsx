@@ -19,7 +19,7 @@ function ArrowIcon() {
 
 export default function Footer() {
   return (
-    <footer className="not-prose mb-16 flex flex-col items-center text-center">
+    <footer className="not-prose mb-8 flex flex-col items-center text-center">
       <ul className="font-sm mt-8 flex flex-col items-center space-y-2 text-neutral-600 md:flex-row md:space-x-6 md:space-y-0 dark:text-neutral-300">
         
         {/* Facebook */}
