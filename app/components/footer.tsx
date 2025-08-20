@@ -33,7 +33,7 @@ export default function Footer() {
       </ul>
 
       <p className="mt-8 text-neutral-600 dark:text-neutral-300">
-        © {new Date().getFullYear()} La Forge au fil du temps, tous droits réservés
+        © {new Date().getFullYear()} <b>La Forge au fil du temps</b>, tous droits réservés
       </p>
     </footer>
   )
