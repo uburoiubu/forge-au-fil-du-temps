@@ -7,10 +7,10 @@ export const metadata = { title: "Histoire & Patrimoine" };
 export default async function Page() {
   return (
     <main className="min-h-screen p-6 text-justify">
-      <h1 className="text-5xl text-center pt-6 pr-6 pl-6">
-        Association « LA FORGE AU FIL DU TEMPS»
+      <h1 className="text-5xl text-center pr-6 pl-6">
+        Association <br />« La Forge au fil du temps »
       </h1>
-      <p className="text-right">
+      <p className="text-right pt-6">
         <em>Association loi 1901</em>
       </p>
       <div className="mt-6 space-y-2 text-xl text-center pl-10 pr-10">
@@ -44,7 +44,7 @@ export default async function Page() {
         <p>
           Nous travaillons sur les archives historiques et industrielles du site
           afin de faire découvrir aux visiteurs la richesse de l'histoire de La
-          Forge».
+          « Forge ».
         </p>
 
         <p>Nous accueillons des artistes pour des expositions temporaires.</p>
@@ -70,7 +70,13 @@ export default async function Page() {
 
         <p>Nous vous attendons!</p>
 
-        <p><b><u>Adhésion annuelle: <i>à partir de 10€</i></u></b></p>
+        <p>
+          <b>
+            <u>
+              Adhésion annuelle: <i>à partir de 10€</i>
+            </u>
+          </b>
+        </p>
       </div>
     </main>
   );
