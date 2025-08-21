@@ -184,7 +184,7 @@ export default function HistoryPage() {
       <section className="mt-12 px-10">
         <h2 className="text-3xl font-semibold mb-6 text-center">À découvrir aussi</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <Link href="/histoire/usine" className="group block rounded-lg overflow-hidden border hover:shadow-lg transition">
+          <Link href="/histoire/usine" className="group block rounded-lg overflow-hidden border border-neutral-200 dark:border-neutral-800 hover:shadow-md transition">
             <div className="relative h-48">
               <Image src="/images/forge-vero-van-be.jpg" alt="Usine électrique" fill className="object-cover transition-transform group-hover:scale-105" />
             </div>
@@ -193,7 +193,7 @@ export default function HistoryPage() {
               <p className="text-base mt-1">Découvrez l'histoire de l'usine électrique.</p>
             </div>
           </Link>
-          <Link href="/histoire/rocafort" className="group block rounded-lg overflow-hidden border hover:shadow-lg transition">
+          <Link href="/histoire/rocafort" className="group block rounded-lg overflow-hidden border border-neutral-200 dark:border-neutral-800 hover:shadow-md transition">
             <div className="relative h-48">
               <Image src="/images/chateau.jpg" alt="Tour du château" fill className="object-cover transition-transform group-hover:scale-105" />
             </div>
