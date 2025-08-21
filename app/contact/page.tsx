@@ -5,8 +5,8 @@ export default function ContactPage() {
         Contact & Infos pratiques
       </h1>
 
-      <div className="text-2xl leading-relaxed p-6 space-y-4">
-        <p>
+      <div className="text-2xl leading-relaxed p-6">
+        <p className="pb-6">
           Vous pouvez nous écrire pour toute question sur la Forge, les visites
           ou les événements.
         </p>
