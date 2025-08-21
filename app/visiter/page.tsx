@@ -2,18 +2,49 @@ import Image from "next/image";
 
 export default function HistoryPage() {
   return (
-   <div className="font-sans text-xl leading-relaxed text-center">
-         <main className="flex flex-col items-center gap-8">
-          <h1 className="text-5xl text-center p-6">Visiter</h1>
-           <div className="w-full h-[400px] relative">
-             <Image
-               src="/images/visit.jpg"
-               alt="Ancienne forge à Souillac"
-               fill
-               className="object-cover"
-             />
-           </div>
-         </main>
-       </div>
-  )
+    <main className="min-h-screen text-justify">
+      <h1 className="text-5xl text-center p-6">Visiter</h1>
+      <div className="w-full h-[400px] relative">
+        <Image
+          src="/images/visit.jpg"
+          alt="Ancienne forge à Souillac"
+          fill
+          className="object-cover"
+        />
+      </div>
+      <div className="mt-6 text-xl leading-relaxed pr-10 pl-10">
+        <p>
+          <b>Bienvenus à la Forge</b>
+        </p>
+
+        <p>La maison vous est ouverte librement à la visite.</p>
+
+        <p>
+          Vous avez accès à tous les étages, mais toutes les pièces ne sont pas
+          « accueillantes » !
+        </p>
+
+        <p>
+          Vous trouverez sur les portes les « noms » des pièces, vous pourrez y
+          entrer.
+        </p>
+
+        <p>
+          Par ailleurs, je vous demande de ne pas entrer dans les pièces
+          marquées « privé » !
+        </p>
+
+        <p>Il y va de votre sécurité !</p>
+
+        <p>
+          En vous remerciant, je vous souhaite une belle visite un peu «
+          labyrinthique » mais qui, je l'espère, vous fera rêver !
+        </p>
+
+        <p className="text-right">
+          <i>Virginie Destrel</i>
+        </p>
+      </div>
+    </main>
+  );
 }
