@@ -12,8 +12,6 @@ export default function HistoryPage() {
           className="mx-auto rounded-lg pr-12 pl-12"
         />
       <div className="mt-6 space-y-2 text-xl leading-relaxed pr-10 pl-10">
-
-        <p></p>
         <p>
           Le lieu doit son nom à l'ancienne activité de forge ou fonderie qui
           füt créée par la famille DE COUSTIN, probablement au début du XVIème

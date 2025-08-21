@@ -1,8 +1,4 @@
-import fs from "node:fs/promises";
-import path from "node:path";
-import { CustomMDX } from "../components/mdx";
-
-export const metadata = { title: "Histoire & Patrimoine" };
+export const metadata = { title: "Association. Soutenir le projet" };
 
 export default async function Page() {
   return (
