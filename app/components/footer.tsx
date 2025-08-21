@@ -14,14 +14,13 @@ function ArrowIcon() {
         fill="currentColor"
       />
     </svg>
-  )
+  );
 }
 
 export default function Footer() {
   return (
     <footer className="not-prose mb-8 flex flex-col items-center text-center">
       <ul className="font-sm mt-8 flex flex-col items-center space-y-2 text-neutral-600 md:flex-row md:space-x-6 md:space-y-0 dark:text-neutral-300">
-        
         {/* Facebook */}
         <li>
           <a
@@ -58,12 +57,20 @@ export default function Footer() {
             <span className="ml-2 h-7">contact</span>
           </Link>
         </li>
-
       </ul>
 
       <p className="mt-4 text-neutral-600 dark:text-neutral-300">
-        © {new Date().getFullYear()} <b>La Forge au fil du temps</b>, tous droits réservés
+        © {new Date().getFullYear()} <b>La Forge au fil du temps</b>, tous
+        droits réservés
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-300">
+        46200 Souillac, France
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-300">
+        <b>Tél.</b> : 06 80 85 80 85
       </p>
     </footer>
-  )
+  );
 }
