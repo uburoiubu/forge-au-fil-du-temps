@@ -59,7 +59,7 @@ export default function Footer() {
         </li>
       </ul>
 
-      <p className="mt-4 text-neutral-600 dark:text-neutral-300">
+      <p className="text-neutral-600 dark:text-neutral-300">
         © {new Date().getFullYear()} <b>La Forge au fil du temps</b>, tous
         droits réservés
       </p>
@@ -69,7 +69,7 @@ export default function Footer() {
       </p>
 
       <p className="text-neutral-600 dark:text-neutral-300">
-        <b>Tél.</b> : 06 80 85 80 85
+        Tél. : 06 80 85 80 85
       </p>
     </footer>
   );
