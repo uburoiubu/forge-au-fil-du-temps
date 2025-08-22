@@ -1,11 +1,18 @@
 import Image from "next/image";
 
-export default function HistoryPage() {
+export default function UsinePage() {
   return (
     <main className="min-h-screen text-justify">
-      <h1 className="text-5xl text-center pt-6 pr-6 pl-6">
-        L'usine électrique Ste Thérèse La Forge Souillac
+      <h1 className="text-5xl text-center p-6">
+        L'usine électrique Sainte Thérèse à La Forge (Souillac)
       </h1>
+      <Image
+                src="/images/usine.jpg"
+                alt="Château de LAFORGE près Souillac (Lot)"
+                width={800}
+                height={500}
+                className="mx-auto rounded-lg pr-12 pl-12"
+              />
       <div className="mt-6 space-y-2 text-xl leading-relaxed pr-10 pl-10">
         <p>
           En 1897, sur l'emplacement de l'ancienne forge dont il utilise la

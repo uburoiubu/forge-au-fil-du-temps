@@ -186,16 +186,16 @@ export default function HistoryPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <Link href="/histoire/usine" className="group block rounded-lg overflow-hidden border border-neutral-200 dark:border-neutral-800 hover:shadow-md transition">
             <div className="relative h-48">
-              <Image src="/images/forge-vero-van-be.jpg" alt="Usine électrique" fill className="object-cover transition-transform group-hover:scale-105" />
+              <Image src="/images/usine.jpg" alt="Usine électrique" fill className="object-cover transition-transform group-hover:scale-105" />
             </div>
             <div className="p-4">
-              <h3 className="text-xl font-semibold">L'usine électrique Ste Thérèse La Forge Souillac</h3>
+              <h3 className="text-xl font-semibold">L'usine électrique Sainte Thérèse à La Forge (Souillac)</h3>
               <p className="text-base mt-1">Découvrez l'histoire de l'usine électrique.</p>
             </div>
           </Link>
           <Link href="/histoire/rocafort" className="group block rounded-lg overflow-hidden border border-neutral-200 dark:border-neutral-800 hover:shadow-md transition">
             <div className="relative h-48">
-              <Image src="/images/chateau.jpg" alt="Tour du château" fill className="object-cover transition-transform group-hover:scale-105" />
+              <Image src="/images/tour-roquefort.jpg" alt="Tour du château" fill className="object-cover transition-transform group-hover:scale-105" />
             </div>
             <div className="p-4">
               <h3 className="text-xl font-semibold">La tour Rocafort de Bourzolles</h3>
