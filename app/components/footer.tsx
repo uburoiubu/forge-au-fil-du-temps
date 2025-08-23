@@ -69,7 +69,7 @@ export default function Footer() {
       </p>
 
       <p className="text-neutral-600 dark:text-neutral-300">
-        Tél. : 06 80 85 80 85
+        Tél. : 07 67 61 68 88
       </p>
     </footer>
   );
