@@ -176,7 +176,7 @@ export default function HistoryPage() {
           consultables sur rendez-vous.
         </p>
          <h1 className="text-4xl text-center pt-3 pb-3 text-left">
-          La Forge aujourd'hui. Création de l'association
+          « La forge au fil du temps »
         </h1>
         <p>
           Le 7 décembre 2016, je suis devenue l'heureuse propriétaire de ce bel
