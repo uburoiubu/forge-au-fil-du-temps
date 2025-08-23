@@ -2,9 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Les grottes - Histoire & patrimoine - La Forge au fil du temps",
+  title: "Historique des grottes par l'Abbé Coldefy - Les grottes - Histoire & patrimoine - La Forge au fil du temps",
   description:
-    "Découvrez les grottes mystérieuses de la Forge de Bourzolles à Souillac, dont la grotte-chapelle dédiée à Notre Dame de Sainte Espérance.",
+    "Découvrez l'historique détaillé des grottes de La Forge de Bourzolles par l'Abbé Coldefy, l'origine du pèlerinage et l'histoire de Notre-Dame de la Sainte Espérance.",
 };
 
 export default function TourPage() {
@@ -68,7 +68,7 @@ export default function TourPage() {
 
         <p>
           Quelles qu'aient été les circonstances, les raisons de famille ou de
-          conscience qui l'avaient amenée à s'adresser à elle, Madame Deltheil
+          conscience qui l'avait amenée à s'adresser à elle, Madame Deltheil
           avait une grande dévotion à Notre-Dame de Saint-Séverin, connue et
           honorée depuis 1840 sous le titre d’
           <em>Immaculée Mère de la Sainte Espérance</em>. C'est ainsi que, le 15

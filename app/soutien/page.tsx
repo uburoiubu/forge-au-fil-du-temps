@@ -1,4 +1,7 @@
-export const metadata = { title: "Association. Soutenir le projet" };
+export const metadata = {
+  title: "Association - Soutenir le projet - La Forge au fil du temps",
+  description: "Découvrez l'association La Forge au fil du temps, ses objectifs, ses activités et comment la soutenir. Rejoignez-nous pour valoriser ce patrimoine historique unique."
+};
 
 export default async function Page() {
   return (

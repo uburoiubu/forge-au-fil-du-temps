@@ -3,7 +3,7 @@ import Image from "next/image";
 export const metadata = {
   title: "Maison du maître - Histoire & patrimoine - La Forge au fil du temps",
   description:
-    "Explorez l'histoire de la maison du maître de la Forge de Bourzolles à Souillac, son architecture et son évolution au fil des siècles.",
+    "Explorez l'histoire détaillée de la maison du maître de la Forge de Bourzolles à Souillac, de sa construction par Jean-Baptiste Deltheil en 1825 aux transformations de Julien Valat, et découvrez ses occupants successifs.",
 };
 
 export default function TourPage() {

@@ -1,9 +1,9 @@
 import Image from "next/image";
 
 export const metadata = {
-  title: "Les grottes - Histoire & patrimoine - La Forge au fil du temps",
+  title: "Grotte-Chapelle Notre Dame de la Sainte Espérance - Les grottes - Histoire & patrimoine - La Forge au fil du temps",
   description:
-    "Découvrez les grottes mystérieuses de la Forge de Bourzolles à Souillac, dont la grotte-chapelle dédiée à Notre Dame de Sainte Espérance.",
+    "Découvrez l'histoire de la grotte-chapelle de Notre Dame de la Sainte Espérance à La Forge de Bourzolles, son origine en 1844 et son développement en pèlerinage au XIXème siècle.",
 };
 
 export default function TourPage() {

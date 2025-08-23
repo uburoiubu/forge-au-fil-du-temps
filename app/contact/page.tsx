@@ -1,6 +1,6 @@
 export const metadata = {
   title: "Contact & Infos pratiques - La Forge au fil du temps",
-  description: "Contactez l'association La Forge au fil du temps. Adresse, email et téléphone pour organiser votre visite de la Forge de Bourzolles à Souillac."
+  description: "Contactez l'association La Forge au fil du temps. Adresse complète, email et téléphone pour organiser votre visite de la Forge de Bourzolles à Souillac."
 };
 
 export default function ContactPage() {

@@ -1,9 +1,9 @@
 import Image from "next/image";
 
 export const metadata = {
-  title: "Les grottes - Histoire & patrimoine - La Forge au fil du temps",
+  title: "Grotte du Pis de la Vache par Armand Viré - Les grottes - Histoire & patrimoine - La Forge au fil du temps",
   description:
-    "Découvrez les grottes mystérieuses de la Forge de Bourzolles à Souillac, dont la grotte-chapelle dédiée à Notre Dame de Sainte Espérance.",
+    "Découvrez l'étude archéologique de la grotte du Pis de la Vache par Armand Viré, site préhistorique unique avec vestiges du Moustérien au Néolithique à La Forge de Bourzolles.",
 };
 
 export default function TourPage() {
