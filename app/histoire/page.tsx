@@ -1,6 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Histoire & patrimoine - La Forge au fil du temps",
+  description: "Découvrez l'histoire fascinante de l'ancienne forge de Bourzolles à Souillac, de ses origines au XVIème siècle à nos jours, et explorez son riche patrimoine industriel et architectural."
+};
+
 export default function HistoryPage() {
   return (
     <main className="min-h-screen text-justify">

@@ -1,5 +1,10 @@
 import Image from "next/image";
 
+export const metadata = {
+  title: "La tour Roquefort de Bourzolles - Histoire & patrimoine - La Forge au fil du temps",
+  description: "Découvrez l'histoire de la tour Roquefort de Bourzolles, donjon féodal du XIème siècle, témoin de l'histoire médiévale de la région de Souillac."
+};
+
 export default function TourPage() {
   return (
     <main className="min-h-screen text-justify">

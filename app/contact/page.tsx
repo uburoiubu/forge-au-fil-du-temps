@@ -1,3 +1,8 @@
+export const metadata = {
+  title: "Contact & Infos pratiques - La Forge au fil du temps",
+  description: "Contactez l'association La Forge au fil du temps. Adresse, email et téléphone pour organiser votre visite de la Forge de Bourzolles à Souillac."
+};
+
 export default function ContactPage() {
   return (
     <main className="min-h-screen">
@@ -5,8 +10,8 @@ export default function ContactPage() {
         Contact & Infos pratiques
       </h1>
 
-      <div className="text-xl leading-relaxed p-6">
-        <p className="pb-6">
+      <div className="text-2xl leading-relaxed p-6 space-y-4">
+        <p>
           Vous pouvez nous écrire pour toute question sur la Forge, les visites
           ou les événements.
         </p>
@@ -31,7 +36,7 @@ export default function ContactPage() {
             href="mailto:virginie.destrel@wanadoo.fr"
             className="text-blue-600 hover:underline dark:text-blue-400"
           >
-             laforgeaufildutemps@orange.fr
+            virginie.destrel@wanadoo.fr
           </a>
         </p>
 
@@ -42,7 +47,7 @@ export default function ContactPage() {
             href="tel:+33680858085"
             className="text-blue-600 hover:underline dark:text-blue-400"
           >
-            07 67 61 68 88
+            06 80 85 80 85
           </a>
         </p>
       </div>

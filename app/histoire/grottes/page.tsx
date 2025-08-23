@@ -1,5 +1,10 @@
 import Image from "next/image";
 
+export const metadata = {
+  title: "Les grottes - Histoire & patrimoine - La Forge au fil du temps",
+  description: "Découvrez les grottes mystérieuses de la Forge de Bourzolles à Souillac, dont la grotte-chapelle dédiée à Notre Dame de Sainte Espérance."
+};
+
 export default function TourPage() {
   return (
     <main className="min-h-screen text-justify">

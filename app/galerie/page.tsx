@@ -1,3 +1,8 @@
+export const metadata = {
+  title: "Galerie - La Forge au fil du temps",
+  description: "Explorez notre galerie de photos et souvenirs de la Forge de Bourzolles à Souillac. Découvrez les images qui retracent l'histoire et la beauté de ce site patrimonial."
+};
+
 export default function GalleryPage() {
   return (
     <main className="min-h-screen p-6">

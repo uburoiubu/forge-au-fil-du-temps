@@ -1,5 +1,10 @@
 import Image from "next/image";
 
+export const metadata = {
+  title: "Exposition/Vente Clémentine Renvoisé - Événements - La Forge au fil du temps",
+  description: "Exposition/Vente de Clémentine Renvoisé à la Forge de Bourzolles à Souillac. Entrée libre, vernissage le 05/09 à 17h30. Découvrez ses œuvres dans ce lieu historique."
+};
+
 export default function HistoryPage() {
   return (
     <main className="h-auto">

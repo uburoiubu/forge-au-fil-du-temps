@@ -1,5 +1,10 @@
 import Image from "next/image";
 
+export const metadata = {
+  title: "Maison du maître - Histoire & patrimoine - La Forge au fil du temps",
+  description: "Explorez l'histoire de la maison du maître de la Forge de Bourzolles à Souillac, son architecture et son évolution au fil des siècles."
+};
+
 export default function TourPage() {
   return (
     <main className="min-h-screen text-justify">

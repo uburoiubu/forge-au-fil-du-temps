@@ -1,5 +1,10 @@
 import Image from "next/image";
 
+export const metadata = {
+  title: "Visiter - La Forge au fil du temps",
+  description: "Visitez librement la maison de la Forge de Bourzolles à Souillac. Découvrez ce lieu historique et son architecture labyrinthique dans un cadre sécurisé."
+};
+
 export default function VisiterPage() {
   return (
     <main className="min-h-screen text-justify">

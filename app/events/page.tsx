@@ -1,6 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Événements & Activités - La Forge au fil du temps",
+  description: "Découvrez les événements culturels, expositions et activités organisés à la Forge de Bourzolles à Souillac. Restez informé des prochaines manifestations."
+};
+
 export default function EventsPage() {
   return (
     <main className="min-h-screen">

@@ -1,5 +1,10 @@
 import Image from "next/image";
 
+export const metadata = {
+  title: "L'usine électrique Sainte Thérèse - Histoire & patrimoine - La Forge au fil du temps",
+  description: "Découvrez l'histoire de l'usine électrique Sainte Thérèse à La Forge de Bourzolles, la première centrale hydroélectrique ayant alimenté Souillac en électricité."
+};
+
 export default function UsinePage() {
   return (
     <main className="min-h-screen text-justify">

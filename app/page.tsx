@@ -1,6 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 
+export const metadata = {
+  title: "La Forge au fil du temps - Accueil",
+  description: "La Forge au fil du temps est une association dont le but est de sauvegarder, de valoriser et d'animer le site des anciennes Forges de Bourzolles à Souillac."
+};
+
 export default function Home() {
   const mobileCards = [
     {
