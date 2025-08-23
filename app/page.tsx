@@ -5,20 +5,25 @@ export default function Home() {
   return (
     <div className="font-sans text-xl leading-relaxed text-center">
       <main className="flex flex-col items-center gap-8">
-        <div className="w-full h-[300px] relative">
+        {/* Banner / Cover Image */}
+        <div className="w-full relative h-[25vh] sm:h-[300px] md:h-[400px]">
           <Image
             src="/images/forge-cover.jpg"
             alt="Ancienne forge à Souillac"
             fill
             className="object-cover"
+            priority
           />
         </div>
 
+        {/* Intro Heading */}
         <h1 className="max-w-4xl px-4 text-4xl md:text-4xl">
           <b>La Forge au fil du temps</b> est une association dont le but est de
-          sauvegarder, de valoriser et d'animer le site des anciennes Forges de
-          Bourzolles à Souillac.
+          sauvegarder, de valoriser et d&apos;animer le site des anciennes
+          Forges de Bourzolles à Souillac.
         </h1>
+
+        {/* Mobile-only quick links */}
         <section className="block md:hidden p-6">
           <h2 className="text-2xl font-semibold mb-4">Explorez le site :</h2>
           <nav>
