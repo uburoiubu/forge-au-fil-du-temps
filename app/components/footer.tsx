@@ -35,7 +35,7 @@ export default function Footer() {
         </li>
 
         {/* Instagram */}
-        <li>
+        {/* <li>
           <a
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
             rel="noopener noreferrer"
@@ -45,7 +45,7 @@ export default function Footer() {
             <ArrowIcon />
             <span className="ml-2 h-7">instagram</span>
           </a>
-        </li>
+        </li> */}
 
         {/* Contact (internal link) */}
         <li>
