@@ -1,18 +1,40 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function HistoryPage() {
   return (
     <main className="min-h-screen">
-      <h1 className="text-5xl text-center p-6">Événements & Activités</h1>
-      <div className="mt-6 space-y-2">
+      <div className="w-full h-[400px] relative">
         <Image
-          src="/images/asso-expo.jpg"
-          alt="La Forge"
-          width={800}
-          height={500}
-          className="mx-auto rounded-lg pr-12 pl-12"
+          src="/images/plafond.jpg"
+          alt="Plafond de la maison du maître"
+          fill
+          className="object-cover"
         />
       </div>
+      <h1 className="text-5xl text-center p-6">Événements & Activités</h1>
+      <section className="px-10">
+        <h2 className="text-3xl font-semibold mb-6 text-center">Septembre</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <Link
+            href="/events/2025/renvoise-05-09"
+            className="group block rounded-lg overflow-hidden border border-neutral-200 dark:border-neutral-800 hover:shadow-md transition"
+          >
+            <div className="relative h-48">
+              <Image
+                src="/images/events/050925-070925.jpeg"
+                alt="Les forges à Souillac"
+                fill
+                className="object-cover transition-transform group-hover:scale-105"
+              />
+            </div>
+            <div className="p-4">
+              <h3 className="text-xl font-semibold">Exposition/Vente Clémentine Renvoisé</h3>
+              <p className="text-base mt-1">Entrée libre. Vernissage le 05/09 à 17h30</p>
+            </div>
+          </Link>
+        </div>
+      </section>
     </main>
   );
 }
