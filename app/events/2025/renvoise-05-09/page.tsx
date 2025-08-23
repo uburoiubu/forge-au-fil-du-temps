@@ -11,8 +11,8 @@ export default function HistoryPage() {
       <h1 className="text-5xl text-center pt-6 pl-6 pr-6">
         Clémentine Renvoisé
       </h1>
-      <h1 className="text-2xl pr-6 pl-6 pt-1 text-center">Exposition/Vente</h1>
-      <h1 className="text-1xl text-center pt-1 pr-6 pl-6 pb-2">
+      <h1 className="text-3xl pr-6 pl-6 pt-1 text-center">Exposition/Vente</h1>
+      <h1 className="text-2xl text-center pt-1 pr-6 pl-6 pb-2">
         Entrée libre. Vernissage le 05/09 à 17h30
       </h1>
       <div className="mt-2 px-12">
