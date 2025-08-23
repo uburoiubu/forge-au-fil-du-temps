@@ -6,12 +6,12 @@ export default function HistoryPage() {
     <main className="min-h-screen text-justify">
       <h1 className="text-5xl text-center p-6">Histoire & patrimoine</h1>
       <Image
-          src="/images/chateau.jpg" // path relative to /public
-          alt="Château de LAFORGE près Souillac (Lot)"
-          width={800}
-          height={500}
-          className="mx-auto rounded-lg pr-12 pl-12"
-        />
+        src="/images/chateau.jpg" // path relative to /public
+        alt="Château de LAFORGE près Souillac (Lot)"
+        width={800}
+        height={500}
+        className="mx-auto rounded-lg pr-12 pl-12"
+      />
       <div className="mt-6 space-y-2 text-xl leading-relaxed pr-10 pl-10">
         <p>
           Le lieu doit son nom à l'ancienne activité de forge ou fonderie qui
@@ -24,6 +24,9 @@ export default function HistoryPage() {
           s'installer à Bourzolles, où il fit bâtir son château au bord de la
           Borrèze.
         </p>
+        <h1 className="text-4xl text-center pt-6 pb-6 text-left">
+          La période des forges
+        </h1>
         <p>
           Les seigneurs DE COUSTIN, profitant des progrès de la sidérurgie,
           établirent une forge sur la rivière Borrèze, à l'emplacement d'un
@@ -116,6 +119,9 @@ export default function HistoryPage() {
           était impossible, Jean Baptiste DELTHEIL perdit une grande partie de
           sa fortune.
         </p>
+        <h1 className="text-4xl text-center pt-6 pb-6 text-left">
+          La période de la centrale électrique
+        </h1>
         <p>
           En 1887, Julien VALAT devint le nouveau propriétaire du site. Il
           entreprit de le rénover et, passionné d'électricité, il installa une
@@ -132,15 +138,20 @@ export default function HistoryPage() {
           Pour transporter le courant à 5 kms, il fit placer un alternateur
           triphasé de 2000 volts et il installa un moteur de secours de 30
           chevaux pour parer aux irrégularités de débit de la Borrèze. L'usine
-          électrique fonctionnera jusqu' 'en 1930. Julien VALAT travailla aussi
-          à embellir et agrandir la demeure des anciens maîtres des forges. Il
-          fit ériger une tour centrale dotée de balcons à balustres et d'une
-          horloge. Il accola un jardin d'hiver sur le côté droit de la bâtisse
-          (1895), et sur le côté gauche une grande salle très richement ornée où
-          trone une cheminée monumentale sur laquelle figure la devise de la
-          famille labora profice ora et spera». Cette salle communique avec une
-          petite chapelle aux belles peintures murales. De très nombreux vitraux
-          habillent les fenêtres.
+          électrique fonctionnera jusqu' 'en 1930.
+        </p>
+        <h1 className="text-4xl text-center pt-6 pb-6 text-left">
+          Après la période industrielle
+        </h1>
+        <p>
+          Julien VALAT travailla aussi à embellir et agrandir la demeure des
+          anciens maîtres des forges. Il fit ériger une tour centrale dotée de
+          balcons à balustres et d'une horloge. Il accola un jardin d'hiver sur
+          le côté droit de la bâtisse (1895), et sur le côté gauche une grande
+          salle très richement ornée où trone une cheminée monumentale sur
+          laquelle figure la devise de la famille labora profice ora et spera».
+          Cette salle communique avec une petite chapelle aux belles peintures
+          murales. De très nombreux vitraux habillent les fenêtres.
         </p>
         <p>
           Il se chargea aussi de modifier le tracé de la route, qui dorénavant
@@ -164,6 +175,9 @@ export default function HistoryPage() {
           constituent un fonds patrimonial extrêmement riche ! Ils sont
           consultables sur rendez-vous.
         </p>
+         <h1 className="text-4xl text-center pt-6 pb-6 text-left">
+          La Forge aujourd'hui. Création de l'association
+        </h1>
         <p>
           Le 7 décembre 2016, je suis devenue l'heureuse propriétaire de ce bel
           endroit ! Mon but est de sauvegarder ce lieu, de lui redonner vie et
@@ -182,24 +196,50 @@ export default function HistoryPage() {
         <p className="text-right">Virginie</p>
       </div>
       <section className="mt-12 px-10">
-        <h2 className="text-3xl font-semibold mb-6 text-center">À découvrir aussi</h2>
+        <h2 className="text-3xl font-semibold mb-6 text-center">
+          À découvrir aussi
+        </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <Link href="/histoire/usine" className="group block rounded-lg overflow-hidden border border-neutral-200 dark:border-neutral-800 hover:shadow-md transition">
+          <Link
+            href="/histoire/usine"
+            className="group block rounded-lg overflow-hidden border border-neutral-200 dark:border-neutral-800 hover:shadow-md transition"
+          >
             <div className="relative h-48">
-              <Image src="/images/usine.jpg" alt="Usine électrique" fill className="object-cover transition-transform group-hover:scale-105" />
+              <Image
+                src="/images/usine.jpg"
+                alt="Usine électrique"
+                fill
+                className="object-cover transition-transform group-hover:scale-105"
+              />
             </div>
             <div className="p-4">
-              <h3 className="text-xl font-semibold">L'usine électrique Sainte Thérèse à La Forge (Souillac)</h3>
-              <p className="text-base mt-1">Découvrez l'histoire de l'usine électrique.</p>
+              <h3 className="text-xl font-semibold">
+                L'usine électrique Sainte Thérèse à La Forge (Souillac)
+              </h3>
+              <p className="text-base mt-1">
+                Découvrez l'histoire de l'usine électrique.
+              </p>
             </div>
           </Link>
-          <Link href="/histoire/rocafort" className="group block rounded-lg overflow-hidden border border-neutral-200 dark:border-neutral-800 hover:shadow-md transition">
+          <Link
+            href="/histoire/rocafort"
+            className="group block rounded-lg overflow-hidden border border-neutral-200 dark:border-neutral-800 hover:shadow-md transition"
+          >
             <div className="relative h-48">
-              <Image src="/images/tour-roquefort.jpg" alt="Tour du château" fill className="object-cover transition-transform group-hover:scale-105" />
+              <Image
+                src="/images/tour-roquefort.jpg"
+                alt="Tour du château"
+                fill
+                className="object-cover transition-transform group-hover:scale-105"
+              />
             </div>
             <div className="p-4">
-              <h3 className="text-xl font-semibold">La tour Rocafort de Bourzolles</h3>
-              <p className="text-base mt-1">Explorez la tour et son histoire.</p>
+              <h3 className="text-xl font-semibold">
+                La tour Rocafort de Bourzolles
+              </h3>
+              <p className="text-base mt-1">
+                Explorez la tour et son histoire.
+              </p>
             </div>
           </Link>
         </div>
