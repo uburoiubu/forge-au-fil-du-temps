@@ -7,7 +7,7 @@ export default function Home() {
       href: "/histoire",
       title: "Histoire",
       desc: "Découvrez l’histoire du site.",
-      img: "/images/chateau.jpg", // change to your actual image
+      img: "/images/chateau.jpg",
       alt: "Histoire de la Forge",
     },
     {
@@ -89,7 +89,7 @@ export default function Home() {
                 </div>
                 <div className="p-4">
                   <h3 className="text-xl font-semibold">{c.title}</h3>
-                  <p className="text-base mt-1">{c.desc}</p>
+                  <p className="text-base mt-0.5">{c.desc}</p>
                 </div>
               </Link>
             ))}
