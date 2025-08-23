@@ -71,6 +71,12 @@ export default function Footer() {
       <p className="text-neutral-600 dark:text-neutral-300">
         Tél. : 07 67 61 68 88
       </p>
+
+      <img
+        src="images/association/asso-la-forge.png"
+        alt="Site logo"
+        className="mx-auto mt-4 w-32"
+      />
     </footer>
   );
 }

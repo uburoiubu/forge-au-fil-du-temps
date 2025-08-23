@@ -3,16 +3,16 @@ import Image from "next/image";
 export default function HistoryPage() {
   return (
     <main className="min-h-screen text-justify">
-      <h1 className="text-5xl text-center p-6">Visiter</h1>
       <div className="w-full h-[400px] relative">
         <Image
-          src="/images/visit.jpg"
-          alt="Ancienne forge à Souillac"
+          src="/images/plafond.jpg"
+          alt="Plafond de la maison du maître"
           fill
           className="object-cover"
         />
       </div>
-      <div className="mt-6 text-xl leading-relaxed pr-10 pl-10">
+       <h1 className="text-5xl text-center p-6">Visiter</h1>
+      <div className="text-xl leading-relaxed pr-10 pl-10">
         <p>
           <b>Bienvenue à la Forge</b>
         </p>

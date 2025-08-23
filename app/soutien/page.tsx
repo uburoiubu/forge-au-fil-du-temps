@@ -66,13 +66,19 @@ export default async function Page() {
 
         <p>Nous vous attendons!</p>
 
-        <p>
+        <p className="mt-6">
           <b>
             <u>
               Adhésion annuelle: <i>à partir de 10€</i>
             </u>
           </b>
         </p>
+
+        <img
+          src="images/association/asso-la-forge.png"
+          alt="Site logo"
+          className="mx-auto mt-8 w-32"
+        />
       </div>
     </main>
   );
