@@ -73,11 +73,10 @@ export default function Home() {
           Forges de Bourzolles à Souillac.
         </h1>
 
-        {/* Mobile-only cards */}
-        <section className="block md:hidden px-4 pb-8 w-full">
+        <section className="block px-4 pb-8 w-full">
           <h2 className="text-2xl font-semibold mb-4">Explorez le site :</h2>
 
-          <div className="grid grid-cols-1 gap-4">
+          <div className="grid grid-cols-3 gap-4 pl-12 pr-12">
             {mobileCards.map((c) => (
               <Link
                 key={c.href}
