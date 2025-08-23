@@ -10,9 +10,26 @@ export const metadata = {
 export default function TourPage() {
   return (
     <main className="min-h-screen text-justify">
-      <h1 className="text-5xl text-center pt-6 pr-6 pl-6">
-        Historique des grottes de La Forge par l'Abbé Coldefy
-      </h1>
+      <div className="relative w-full h-[200px] md:h-[300px] lg:h-[400px]">
+              <Image
+                src="/images/grottes/grotte-historique.jpg"
+                alt="La grotte du Pis de la Vache"
+                fill
+                className="object-cover shadow-md"
+                priority
+              />
+      
+              {/* Dark overlay */}
+              <div className="absolute inset-0 bg-black/40 flex flex-col items-center justify-center">
+                <h2 className="text-white text-3xl md:text-4xl lg:text-5xl font-bold text-center px-4">
+                  Historique des grottes de La Forge
+                </h2>
+                <p className="mt-3 text-white/90 text-lg md:text-xl lg:text-2xl italic font-medium">
+                  par l'Abbé Coldefy
+                </p>
+              </div>
+      
+            </div>
       <div className="mt-6 space-y-2 text-xl leading-relaxed pr-10 pl-10">
         <p>
           Le pèlerinage bourzollais de Notre-Dame des Grottes n'est pas un de
