@@ -4,14 +4,20 @@ import Link from "next/link";
 export default function HistoryPage() {
   return (
     <main className="min-h-screen text-justify">
-      <h1 className="text-5xl text-center p-6">Histoire & patrimoine</h1>
-      <Image
-        src="/images/chateau.jpg" // path relative to /public
-        alt="Château de LAFORGE près Souillac (Lot)"
-        width={800}
-        height={500}
-        className="mx-auto rounded-lg pr-12 pl-12"
-      />
+      <div className="w-screen">
+        <Image
+          src="/images/chateau.jpg"
+          alt="Plafond de la maison du maître"
+          width={0}
+          height={0}
+          sizes="100vw"
+          className="w-full h-auto object-cover md:max-h-[400px]"
+          priority
+        />
+      </div>
+      <h1 className="text-5xl text-center pt-6 pl-6 pr-6">
+        Histoire & patrimoine
+      </h1>
       <div className="mt-6 space-y-2 text-xl leading-relaxed pr-10 pl-10">
         <p>
           Le lieu doit son nom à l'ancienne activité de forge ou fonderie qui
@@ -175,7 +181,7 @@ export default function HistoryPage() {
           constituent un fonds patrimonial extrêmement riche ! Ils sont
           consultables sur rendez-vous.
         </p>
-         <h1 className="text-4xl text-center pt-3 pb-3 text-left">
+        <h1 className="text-4xl text-center pt-3 pb-3 text-left">
           « La forge au fil du temps »
         </h1>
         <p>
@@ -213,12 +219,8 @@ export default function HistoryPage() {
               />
             </div>
             <div className="p-4">
-              <h3 className="text-xl font-semibold">
-                Les forges
-              </h3>
-              <p className="text-base mt-1">
-                Découvrez l'histoire des forges.
-              </p>
+              <h3 className="text-xl font-semibold">Les forges</h3>
+              <p className="text-base mt-1">Découvrez l'histoire des forges.</p>
             </div>
           </Link>
           <Link
@@ -234,9 +236,7 @@ export default function HistoryPage() {
               />
             </div>
             <div className="p-4">
-              <h3 className="text-xl font-semibold">
-                La grande maison
-              </h3>
+              <h3 className="text-xl font-semibold">La grande maison</h3>
               <p className="text-base mt-1">
                 Découvrez l'histoire de la grande maison.
               </p>
@@ -283,9 +283,7 @@ export default function HistoryPage() {
               />
             </div>
             <div className="p-4">
-              <h3 className="text-xl font-semibold">
-                Les grottes
-              </h3>
+              <h3 className="text-xl font-semibold">Les grottes</h3>
               <p className="text-base mt-1">
                 Découvrez l'histoire des grottes.
               </p>
