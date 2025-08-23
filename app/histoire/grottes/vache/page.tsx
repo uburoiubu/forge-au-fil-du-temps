@@ -1,7 +1,8 @@
 import Image from "next/image";
 
 export const metadata = {
-  title: "Grotte du Pis de la Vache par Armand Viré - Les grottes - Histoire & patrimoine - La Forge au fil du temps",
+  title:
+    "Grotte du Pis de la Vache par Armand Viré - Les grottes - Histoire & patrimoine - La Forge au fil du temps",
   description:
     "Découvrez l'étude archéologique de la grotte du Pis de la Vache par Armand Viré, site préhistorique unique avec vestiges du Moustérien au Néolithique à La Forge de Bourzolles.",
 };
@@ -9,14 +10,31 @@ export const metadata = {
 export default function TourPage() {
   return (
     <main className="min-h-screen text-justify">
-      <h1 className="text-5xl text-center pt-6 pr-6 pl-6">
-        La grotte du Pis de la Vache
-      </h1>
-      <div className="mt-6 space-y-2 text-xl leading-relaxed pr-10 pl-10">
-        <p className="text-right">
-          <em>Par Armand VIRÉ</em>
-        </p>
+      <div className="relative w-full h-[200px] md:h-[300px] lg:h-[400px]">
+        <Image
+          src="/images/grottes/fouilles-armand-vire.jpg"
+          alt="La grotte du Pis de la Vache"
+          fill
+          className="object-cover shadow-md"
+          priority
+        />
 
+        {/* Dark overlay */}
+        <div className="absolute inset-0 bg-black/40 flex flex-col items-center justify-center">
+          <h2 className="text-white text-3xl md:text-4xl lg:text-5xl font-bold text-center px-4">
+            La grotte du Pis de la Vache
+          </h2>
+          <p className="mt-3 text-white/90 text-lg md:text-xl lg:text-2xl italic font-medium">
+            par Armand Viré
+          </p>
+        </div>
+
+        {/* Caption at bottom-right */}
+        <p className="absolute bottom-2 right-4 text-white/90 text-xs md:text-sm italic">
+          Les fouilles exécutées par Armand Viré en 1932
+        </p>
+      </div>
+      <div className="mt-6 space-y-2 text-xl leading-relaxed pr-10 pl-10">
         <p>
           Parmi toutes les stations préhistoriques que nous avons fouillées dans
           le département du Lot, la grotte du Pis de la Vache nous paraît
@@ -66,8 +84,8 @@ export default function TourPage() {
         </ul>
 
         <p>
-          Cette dernière porte le nom de <b>Pis de la Vache</b>, à
-          cause d’une stalactite qui rappelle la forme de l’organe animal.
+          Cette dernière porte le nom de <b>Pis de la Vache</b>, à cause d’une
+          stalactite qui rappelle la forme de l’organe animal.
         </p>
 
         <h2>Résultats des fouilles (stratigraphie)</h2>
