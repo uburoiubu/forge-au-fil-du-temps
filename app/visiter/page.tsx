@@ -14,7 +14,7 @@ export default function HistoryPage() {
       </div>
       <div className="mt-6 text-xl leading-relaxed pr-10 pl-10">
         <p>
-          <b>Bienvenus à la Forge</b>
+          <b>Bienvenue à la Forge</b>
         </p>
 
         <p>La maison vous est ouverte librement à la visite.</p>

@@ -9,7 +9,7 @@ const navItems = [
   { href: "/events", label: "Événements & Activités" },
   { href: "/galerie", label: "Galerie" },
   { href: "/contact", label: "Contact" },
-  { href: "/soutien", label: "Soutenir" },
+  { href: "/soutien", label: "Association" },
 ];
 
 export function Navbar() {

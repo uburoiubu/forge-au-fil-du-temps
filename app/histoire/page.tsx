@@ -197,6 +197,76 @@ export default function HistoryPage() {
       </div>
       <section className="mt-12 px-10">
         <h2 className="text-3xl font-semibold mb-6 text-center">
+          Pour aller plus loin
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <Link
+            href="/histoire/usine"
+            className="group block rounded-lg overflow-hidden border border-neutral-200 dark:border-neutral-800 hover:shadow-md transition"
+          >
+            <div className="relative h-48">
+              <Image
+                src="/images/usine.jpg"
+                alt="Usine électrique"
+                fill
+                className="object-cover transition-transform group-hover:scale-105"
+              />
+            </div>
+            <div className="p-4">
+              <h3 className="text-xl font-semibold">
+                Les forges
+              </h3>
+              <p className="text-base mt-1">
+                Découvrez l'histoire de l'usine électrique.
+              </p>
+            </div>
+          </Link>
+          <Link
+            href="/histoire/usine"
+            className="group block rounded-lg overflow-hidden border border-neutral-200 dark:border-neutral-800 hover:shadow-md transition"
+          >
+            <div className="relative h-48">
+              <Image
+                src="/images/usine.jpg"
+                alt="Usine électrique"
+                fill
+                className="object-cover transition-transform group-hover:scale-105"
+              />
+            </div>
+            <div className="p-4">
+              <h3 className="text-xl font-semibold">
+                La grande maison
+              </h3>
+              <p className="text-base mt-1">
+                Découvrez l'histoire de l'usine électrique.
+              </p>
+            </div>
+          </Link>
+          <Link
+            href="/histoire/usine"
+            className="group block rounded-lg overflow-hidden border border-neutral-200 dark:border-neutral-800 hover:shadow-md transition"
+          >
+            <div className="relative h-48">
+              <Image
+                src="/images/usine.jpg"
+                alt="Usine électrique"
+                fill
+                className="object-cover transition-transform group-hover:scale-105"
+              />
+            </div>
+            <div className="p-4">
+              <h3 className="text-xl font-semibold">
+                L'usine électrique Sainte Thérèse à La Forge (Souillac)
+              </h3>
+              <p className="text-base mt-1">
+                Découvrez l'histoire de l'usine électrique.
+              </p>
+            </div>
+          </Link>
+        </div>
+      </section>
+      <section className="mt-12 px-10">
+        <h2 className="text-3xl font-semibold mb-6 text-center">
           À découvrir aussi
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -214,7 +284,7 @@ export default function HistoryPage() {
             </div>
             <div className="p-4">
               <h3 className="text-xl font-semibold">
-                L'usine électrique Sainte Thérèse à La Forge (Souillac)
+                Les grottes
               </h3>
               <p className="text-base mt-1">
                 Découvrez l'histoire de l'usine électrique.

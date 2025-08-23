@@ -31,7 +31,7 @@ export default function ContactPage() {
             href="mailto:virginie.destrel@wanadoo.fr"
             className="text-blue-600 hover:underline dark:text-blue-400"
           >
-            virginie.destrel@wanadoo.fr
+             laforgeaufildutemps@orange.fr
           </a>
         </p>
 
@@ -42,7 +42,7 @@ export default function ContactPage() {
             href="tel:+33680858085"
             className="text-blue-600 hover:underline dark:text-blue-400"
           >
-            06 80 85 80 85
+            07 67 61 68 88
           </a>
         </p>
       </div>
