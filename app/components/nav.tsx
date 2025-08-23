@@ -8,8 +8,8 @@ const navItems = [
   { href: "/visiter", label: "Visiter" },
   { href: "/events", label: "Événements & Activités" },
   { href: "/galerie", label: "Galerie" },
-  { href: "/contact", label: "Contact" },
   { href: "/soutien", label: "Association" },
+  { href: "/contact", label: "Contact" }
 ];
 
 export function Navbar() {
