@@ -2,6 +2,51 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
+  const mobileCards = [
+    {
+      href: "/histoire",
+      title: "Histoire",
+      desc: "Découvrez l’histoire du site.",
+      img: "/images/chateau.jpg", // change to your actual image
+      alt: "Histoire de la Forge",
+    },
+    {
+      href: "/visiter",
+      title: "Visiter",
+      desc: "Préparez votre visite.",
+      img: "/images/visiter.jpg",
+      alt: "Visite de la Forge",
+    },
+    {
+      href: "/events",
+      title: "Événements & Activités",
+      desc: "Ce qui se passe à la Forge.",
+      img: "/images/plafond.jpg",
+      alt: "Événements et activités",
+    },
+    {
+      href: "/galerie",
+      title: "Galerie",
+      desc: "Photos et souvenirs.",
+      img: "/images/usine.jpg",
+      alt: "Galerie photo",
+    },
+    {
+      href: "/soutien",
+      title: "Association",
+      desc: "Soutenir / adhérer.",
+      img: "/images/asso-expo.jpg",
+      alt: "Association",
+    },
+    {
+      href: "/contact",
+      title: "Contact",
+      desc: "Nous écrire / venir.",
+      img: "/images/association/asso-la-forge.png",
+      alt: "Contact",
+    },
+  ];
+
   return (
     <div className="font-sans text-xl leading-relaxed text-center">
       <main className="flex flex-col items-center gap-8">
@@ -23,46 +68,32 @@ export default function Home() {
           Forges de Bourzolles à Souillac.
         </h1>
 
-        {/* Mobile-only quick links */}
-        <section className="block md:hidden p-6">
+        {/* Mobile-only cards */}
+        <section className="block md:hidden px-4 pb-8 w-full">
           <h2 className="text-2xl font-semibold mb-4">Explorez le site :</h2>
-          <nav>
-            <ul className="flex flex-col items-center gap-2 text-xl">
-              <li>
-                <Link
-                  href="/histoire"
-                  className="underline hover:text-blue-600"
-                >
-                  Histoire
-                </Link>
-              </li>
-              <li>
-                <Link href="/visiter" className="underline hover:text-blue-600">
-                  Visiter
-                </Link>
-              </li>
-              <li>
-                <Link href="/events" className="underline hover:text-blue-600">
-                  Événements & Activités
-                </Link>
-              </li>
-              <li>
-                <Link href="/galerie" className="underline hover:text-blue-600">
-                  Galerie
-                </Link>
-              </li>
-              <li>
-                <Link href="/soutien" className="underline hover:text-blue-600">
-                  Association
-                </Link>
-              </li>
-              <li>
-                <Link href="/contact" className="underline hover:text-blue-600">
-                  Contact
-                </Link>
-              </li>
-            </ul>
-          </nav>
+
+          <div className="grid grid-cols-1 gap-4">
+            {mobileCards.map((c) => (
+              <Link
+                key={c.href}
+                href={c.href}
+                className="group block rounded-lg overflow-hidden border border-neutral-200 dark:border-neutral-800 hover:shadow-md transition text-left"
+              >
+                <div className="relative h-40">
+                  <Image
+                    src={c.img}
+                    alt={c.alt}
+                    fill
+                    className="object-cover transition-transform group-hover:scale-105"
+                  />
+                </div>
+                <div className="p-4">
+                  <h3 className="text-xl font-semibold">{c.title}</h3>
+                  <p className="text-base mt-1">{c.desc}</p>
+                </div>
+              </Link>
+            ))}
+          </div>
         </section>
       </main>
     </div>
