@@ -4,11 +4,11 @@ export default function TourPage() {
   return (
     <main className="min-h-screen text-justify">
       <h1 className="text-5xl text-center pt-6 pr-6 pl-6">
-        La tour Rocafort de Bourzolles
+        La tour Roquefort de Bourzolles
       </h1>
       <div className="mt-6 space-y-2 text-xl leading-relaxed pr-10 pl-10">
         <p>
-          La Tour Rocafort est le témoin du premier château implanté sur
+          La Tour Roquefort est le témoin du premier château implanté sur
           l'ancienne commune de Bourzolles, maintenant rattachée à la ville de
           Souillac. Elle domine le village sur un piton rocheux dit « Puy de la
           Broussette ».
@@ -39,7 +39,7 @@ export default function TourPage() {
         </p>
 
         <p>
-          La tour Rocafort est donc un donjon de château féodal, demeure
+          La tour Roquefort est donc un donjon de château féodal, demeure
           seigneuriale, dont nous avons une assez bonne description dans un
           hommage de 1486 : Castrum situé sur la montagne, ayant son jardin, son
           colombier, sa garenne.
@@ -100,6 +100,30 @@ export default function TourPage() {
         <p className="text-right">
           <i>Archives : Fonds « La Forge patrimoine »</i>
         </p>
+
+        <a
+          href="https://pop.culture.gouv.fr/notice/merimee/IA46101536"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group block rounded-lg overflow-hidden border border-neutral-200 dark:border-neutral-800 hover:shadow-md transition"
+        >
+          <div className="relative h-48">
+            <Image
+              src="/images/tour-roquefort.jpg"
+              alt="Souillac. Grottes de Laforge"
+              fill
+              className="object-cover transition-transform group-hover:scale-105"
+            />
+          </div>
+          <div className="p-4">
+            <h3 className="text-xl font-semibold">
+              Château de Roquefort
+            </h3>
+            <p className="text-base mt-1">
+              Découvrez la fiche officielle du ministère de la Culture.
+            </p>
+          </div>
+        </a>
       </div>
     </main>
   );

@@ -24,7 +24,7 @@ export default function HistoryPage() {
           s'installer à Bourzolles, où il fit bâtir son château au bord de la
           Borrèze.
         </p>
-        <h1 className="text-4xl text-center pt-6 pb-6 text-left">
+        <h1 className="text-4xl text-center pt-3 pb-3 text-left">
           La période des forges
         </h1>
         <p>
@@ -119,7 +119,7 @@ export default function HistoryPage() {
           était impossible, Jean Baptiste DELTHEIL perdit une grande partie de
           sa fortune.
         </p>
-        <h1 className="text-4xl text-center pt-6 pb-6 text-left">
+        <h1 className="text-4xl text-center pt-3 pb-3 text-left">
           La période de la centrale électrique
         </h1>
         <p>
@@ -140,7 +140,7 @@ export default function HistoryPage() {
           chevaux pour parer aux irrégularités de débit de la Borrèze. L'usine
           électrique fonctionnera jusqu' 'en 1930.
         </p>
-        <h1 className="text-4xl text-center pt-6 pb-6 text-left">
+        <h1 className="text-4xl text-center pt-3 pb-3 text-left">
           Après la période industrielle
         </h1>
         <p>
@@ -175,7 +175,7 @@ export default function HistoryPage() {
           constituent un fonds patrimonial extrêmement riche ! Ils sont
           consultables sur rendez-vous.
         </p>
-         <h1 className="text-4xl text-center pt-6 pb-6 text-left">
+         <h1 className="text-4xl text-center pt-3 pb-3 text-left">
           La Forge aujourd'hui. Création de l'association
         </h1>
         <p>
@@ -201,13 +201,13 @@ export default function HistoryPage() {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <Link
-            href="/histoire/usine"
+            href="/histoire/forges"
             className="group block rounded-lg overflow-hidden border border-neutral-200 dark:border-neutral-800 hover:shadow-md transition"
           >
             <div className="relative h-48">
               <Image
-                src="/images/usine.jpg"
-                alt="Usine électrique"
+                src="/images/forges/plan-forges-1828-haut-fourneau.jpg"
+                alt="Les forges à Souillac"
                 fill
                 className="object-cover transition-transform group-hover:scale-105"
               />
@@ -217,18 +217,18 @@ export default function HistoryPage() {
                 Les forges
               </h3>
               <p className="text-base mt-1">
-                Découvrez l'histoire de l'usine électrique.
+                Découvrez l'histoire des forges.
               </p>
             </div>
           </Link>
           <Link
-            href="/histoire/usine"
+            href="/histoire/maison"
             className="group block rounded-lg overflow-hidden border border-neutral-200 dark:border-neutral-800 hover:shadow-md transition"
           >
             <div className="relative h-48">
               <Image
-                src="/images/usine.jpg"
-                alt="Usine électrique"
+                src="/images/maison/maison-cover-compressed.jpeg"
+                alt="Maison La Forge"
                 fill
                 className="object-cover transition-transform group-hover:scale-105"
               />
@@ -238,7 +238,7 @@ export default function HistoryPage() {
                 La grande maison
               </h3>
               <p className="text-base mt-1">
-                Découvrez l'histoire de l'usine électrique.
+                Découvrez l'histoire de la grande maison.
               </p>
             </div>
           </Link>
@@ -271,13 +271,13 @@ export default function HistoryPage() {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <Link
-            href="/histoire/usine"
+            href="/histoire/grottes"
             className="group block rounded-lg overflow-hidden border border-neutral-200 dark:border-neutral-800 hover:shadow-md transition"
           >
             <div className="relative h-48">
               <Image
-                src="/images/usine.jpg"
-                alt="Usine électrique"
+                src="/images/grottes/grottes-cp.jpg"
+                alt="Souillac. Grottes de Laforge"
                 fill
                 className="object-cover transition-transform group-hover:scale-105"
               />
@@ -287,25 +287,25 @@ export default function HistoryPage() {
                 Les grottes
               </h3>
               <p className="text-base mt-1">
-                Découvrez l'histoire de l'usine électrique.
+                Découvrez l'histoire des grottes.
               </p>
             </div>
           </Link>
           <Link
-            href="/histoire/rocafort"
+            href="/histoire/roquefort"
             className="group block rounded-lg overflow-hidden border border-neutral-200 dark:border-neutral-800 hover:shadow-md transition"
           >
             <div className="relative h-48">
               <Image
-                src="/images/tour-roquefort.jpg"
-                alt="Tour du château"
+                src="/images/roquefort/tour-roquefort.jpg"
+                alt="La tour Roquefort de Bourzolles"
                 fill
                 className="object-cover transition-transform group-hover:scale-105"
               />
             </div>
             <div className="p-4">
               <h3 className="text-xl font-semibold">
-                La tour Rocafort de Bourzolles
+                La tour Roquefort de Bourzolles
               </h3>
               <p className="text-base mt-1">
                 Explorez la tour et son histoire.
