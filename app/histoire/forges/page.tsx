@@ -1,14 +1,16 @@
 import Image from "next/image";
+import Breadcrumbs from "../../components/breadcrumbs";
 
 export const metadata = {
   title: "Les forges - Histoire & patrimoine - La Forge au fil du temps",
   description:
-    "Découvrez l'histoire des forges de Bourzolles à Souillac, leur fonctionnement, leur évolution et leur impact sur le développement industriel de la région.",
+    "Découvrez l'histoire détaillée des forges de Bourzolles à Souillac, leur fonctionnement, leur production (artillerie, chaudières, objets domestiques), et l'histoire de leurs propriétaires successifs du XVIème au XIXème siècle.",
 };
 
 export default function TourPage() {
   return (
     <main className="min-h-screen text-justify">
+      <Breadcrumbs />
       <h1 className="text-5xl text-center pt-6 pr-6 pl-6">
         Les Forges de Bourzolles
       </h1>

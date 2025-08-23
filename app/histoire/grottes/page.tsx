@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import Breadcrumbs from "../../components/breadcrumbs";
 
 export const metadata = {
   title: "Les grottes - Histoire & patrimoine - La Forge au fil du temps",
@@ -10,7 +11,8 @@ export const metadata = {
 export default function TourPage() {
   return (
     <main className="min-h-screen text-justify">
-      <h1 className="text-5xl text-center pt-6 pr-6 pl-6">Les grottes</h1>
+      <Breadcrumbs />
+      <h1 className="text-5xl text-center pt-2 pr-6 pl-6">Les grottes</h1>
       <div className="mt-6 space-y-2 text-xl leading-relaxed pr-10 pl-10"></div>
       <section className="mt-6 px-10">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

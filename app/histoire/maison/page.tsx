@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Breadcrumbs from "../../components/breadcrumbs";
 
 export const metadata = {
   title: "Maison du maître - Histoire & patrimoine - La Forge au fil du temps",
@@ -9,6 +10,7 @@ export const metadata = {
 export default function TourPage() {
   return (
     <main className="min-h-screen text-justify">
+      <Breadcrumbs />
       <h1 className="text-5xl text-center pt-6 pr-6 pl-6">Maison du maître</h1>
       <div className="mt-6 space-y-2 text-xl leading-relaxed pr-10 pl-10">
         <p>

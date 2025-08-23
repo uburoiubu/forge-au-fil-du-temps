@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Breadcrumbs from "../../components/breadcrumbs";
 
 export const metadata = {
   title: "L'usine électrique Sainte Thérèse - Histoire & patrimoine - La Forge au fil du temps",
@@ -8,6 +9,7 @@ export const metadata = {
 export default function UsinePage() {
   return (
     <main className="min-h-screen text-justify">
+      <Breadcrumbs />
       <h1 className="text-5xl text-center p-6">
         L'usine électrique Sainte Thérèse à La Forge (Souillac)
       </h1>

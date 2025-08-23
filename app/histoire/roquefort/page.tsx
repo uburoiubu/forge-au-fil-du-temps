@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Breadcrumbs from "../../components/breadcrumbs";
 
 export const metadata = {
   title: "La tour Roquefort de Bourzolles - Histoire & patrimoine - La Forge au fil du temps",
@@ -8,6 +9,7 @@ export const metadata = {
 export default function TourPage() {
   return (
     <main className="min-h-screen text-justify">
+      <Breadcrumbs />
       <h1 className="text-5xl text-center pt-6 pr-6 pl-6">
         La tour Roquefort de Bourzolles
       </h1>

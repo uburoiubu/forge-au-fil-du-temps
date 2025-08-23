@@ -101,7 +101,54 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               ],
               "sameAs": [
                 "https://www.facebook.com/laforgeaufildutemps"
-              ]
+              ],
+              "breadcrumb": {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                  {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Accueil",
+                    "item": "https://laforgeaufildutemps.fr"
+                  },
+                  {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Histoire & patrimoine",
+                    "item": "https://laforgeaufildutemps.fr/histoire"
+                  },
+                  {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Les grottes",
+                    "item": "https://laforgeaufildutemps.fr/histoire/grottes"
+                  },
+                  {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "name": "Visiter",
+                    "item": "https://laforgeaufildutemps.fr/visiter"
+                  },
+                  {
+                    "@type": "ListItem",
+                    "position": 5,
+                    "name": "Événements & Activités",
+                    "item": "https://laforgeaufildutemps.fr/events"
+                  },
+                  {
+                    "@type": "ListItem",
+                    "position": 6,
+                    "name": "Association",
+                    "item": "https://laforgeaufildutemps.fr/soutien"
+                  },
+                  {
+                    "@type": "ListItem",
+                    "position": 7,
+                    "name": "Contact & Infos pratiques",
+                    "item": "https://laforgeaufildutemps.fr/contact"
+                  }
+                ]
+              }
             })
           }}
         />

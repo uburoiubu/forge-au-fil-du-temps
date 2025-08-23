@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import Breadcrumbs from "../../../components/breadcrumbs";
 
 export const metadata = {
   title: "Historique des grottes par l'Abbé Coldefy - Les grottes - Histoire & patrimoine - La Forge au fil du temps",
@@ -10,6 +11,7 @@ export const metadata = {
 export default function TourPage() {
   return (
     <main className="min-h-screen text-justify">
+      <Breadcrumbs />
       <div className="relative w-full h-[200px] md:h-[300px] lg:h-[400px]">
               <Image
                 src="/images/grottes/grotte-historique.jpg"

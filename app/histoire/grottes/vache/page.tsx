@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Breadcrumbs from "../../../components/breadcrumbs";
 
 export const metadata = {
   title:
@@ -10,6 +11,7 @@ export const metadata = {
 export default function TourPage() {
   return (
     <main className="min-h-screen text-justify">
+      <Breadcrumbs />
       <div className="relative w-full h-[200px] md:h-[300px] lg:h-[400px]">
         <Image
           src="/images/grottes/fouilles-armand-vire.jpg"
