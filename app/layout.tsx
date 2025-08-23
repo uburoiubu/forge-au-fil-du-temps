@@ -95,8 +95,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 "latitude": 44.8933,
                 "longitude": 1.4758
               },
-              "openingHours": "Mo-Su 09:00-18:00",
-              "priceRange": "€€",
               "image": [
                 "https://laforgeaufildutemps.fr/images/forge-cover.jpg",
                 "https://laforgeaufildutemps.fr/images/chateau.jpg"
