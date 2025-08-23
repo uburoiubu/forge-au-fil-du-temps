@@ -203,8 +203,7 @@ export default function TourPage() {
 
         <p>
           Des stances à la Vierge lui furent adressées par un nommé{" "}
-          <strong>Sidonie Chantelcuve</strong>
-          de Souillac. Ces stances ne sont rien de très poétiques ; toutefois,
+          <b>Sidonie Chantelcuve</b> de Souillac. Ces stances ne sont rien de très poétiques ; toutefois,
           elles ont fourni un thème de cantique en l'honneur de Notre-Dame de la
           Sainte Espérance.
         </p>
