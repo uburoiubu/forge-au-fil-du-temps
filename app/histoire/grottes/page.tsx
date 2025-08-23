@@ -15,12 +15,31 @@ export default function TourPage() {
       <section className="mt-6 px-10">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <Link
+            href="/histoire/grottes/historique"
+            className="group block rounded-lg overflow-hidden border border-neutral-200 dark:border-neutral-800 hover:shadow-md transition"
+          >
+            <div className="relative h-48">
+              <Image
+                src="/images/grottes/grotte-historique.jpg"
+                alt="Souillac. Grottes de Laforge"
+                fill
+                className="object-cover transition-transform group-hover:scale-105"
+              />
+            </div>
+            <div className="p-4">
+              <h3 className="text-xl font-semibold">Historique des grottes de La Forge par l'Abbé Coldefy</h3>
+              <p className="text-base mt-1">
+                Découvrez l'histoire des grottes.
+              </p>
+            </div>
+          </Link>
+          <Link
             href="/histoire/grottes/chapelle"
             className="group block rounded-lg overflow-hidden border border-neutral-200 dark:border-neutral-800 hover:shadow-md transition"
           >
             <div className="relative h-48">
               <Image
-                src="/images/grottes/grottes-cp.jpg"
+                src="/images/grottes/grottes-cp-2.jpg"
                 alt="Souillac. Grottes de Laforge"
                 fill
                 className="object-cover transition-transform group-hover:scale-105"
@@ -39,8 +58,8 @@ export default function TourPage() {
           >
             <div className="relative h-48">
               <Image
-                src="/images/roquefort/tour-roquefort.jpg"
-                alt="La tour Roquefort de Bourzolles"
+                src="/images/grottes/grotte-pis-de-vache.jpg"
+                alt="Grotte Pis de Vache."
                 fill
                 className="object-cover transition-transform group-hover:scale-105"
               />
