@@ -24,11 +24,11 @@ export default function Breadcrumbs() {
   };
 
   return (
-    <nav className="hidden md:block text-base text-foreground/80 mt-2 mb-2 px-6 py-2 bg-background/90 backdrop-blur supports-[backdrop-filter]:bg-background/70" aria-label="Breadcrumb">
-      <div className="flex items-center space-x-2">
+    <nav className="hidden md:block text-base text-foreground/80 mb-0 px-6 h-10 bg-background/90 backdrop-blur supports-[backdrop-filter]:bg-background/70 border-b border-foreground/10" aria-label="Breadcrumb">
+      <div className="flex items-center justify-start space-x-2 h-full">
         <Link 
           href="/histoire" 
-          className="flex items-center text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors"
+          className="flex items-center text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors leading-none"
           aria-label="Histoire & patrimoine"
         >
           <HomeIcon className="w-5 h-5 mr-2" />
@@ -41,16 +41,16 @@ export default function Breadcrumbs() {
           const label = breadcrumbMap[segment] || segment;
           
           return (
-            <div key={segment} className="flex items-center">
+            <div key={segment} className="flex items-center leading-none">
               <ChevronRightIcon className="w-5 h-5 text-foreground/40 mx-2" />
               {isLast ? (
-                <span className="text-foreground font-medium" aria-current="page">
+                <span className="text-foreground font-medium leading-none" aria-current="page">
                   {label}
                 </span>
               ) : (
                 <Link 
                   href={path}
-                  className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors hover:underline"
+                  className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors hover:underline leading-none"
                 >
                   {label}
                 </Link>

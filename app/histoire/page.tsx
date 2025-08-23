@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import Breadcrumbs from "../components/breadcrumbs";
 
 export const metadata = {
   title: "Histoire & patrimoine - La Forge au fil du temps",
@@ -10,7 +9,6 @@ export const metadata = {
 export default function HistoryPage() {
   return (
     <main className="min-h-screen text-justify">
-      <Breadcrumbs />
       <div className="w-screen">
         <Image
           src="/images/chateau.jpg"
