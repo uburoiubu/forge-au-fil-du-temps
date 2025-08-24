@@ -35,17 +35,17 @@ export default function Footer() {
         </li>
 
         {/* Instagram */}
-        {/* <li>
+        <li>
           <a
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://www.instagram.com/your_instagram_here" // <-- replace with your real handle
+            href="https://www.instagram.com/laforgeaufildutemps/" // <-- replace with your real handle
           >
             <ArrowIcon />
             <span className="ml-2 h-7">instagram</span>
           </a>
-        </li> */}
+        </li>
 
         {/* Contact (internal link) */}
         <li>
