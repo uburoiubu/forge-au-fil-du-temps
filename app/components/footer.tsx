@@ -57,6 +57,17 @@ export default function Footer() {
             <span className="ml-2 h-7">contact</span>
           </Link>
         </li>
+
+                {/* Contact (internal link) */}
+        <li>
+          <Link
+            href="/soutien"
+            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+          >
+            <ArrowIcon />
+            <span className="ml-2 h-7">adhérer</span>
+          </Link>
+        </li>
       </ul>
 
       <p className="mt-4 text-neutral-600 dark:text-neutral-300">
