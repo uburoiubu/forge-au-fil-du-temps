@@ -74,7 +74,7 @@ export default function Home() {
         </h1>
 
         <section className="block px-4 pb-8 w-full">
-          <h2 className="text-2xl font-semibold mb-4">Explorez le site :</h2>
+          <h2 className="text-2xl font-semibold mb-12">Explorez le site</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 md:px-12">
             {mobileCards.map((c) => (
