@@ -26,7 +26,7 @@ export default function HistoryPage() {
       <div className="mt-6 space-y-2 text-xl leading-relaxed pr-10 pl-10">
         <p>
           Le lieu doit son nom à l'ancienne activité de forge ou fonderie qui
-          füt créée par la famille DE COUSTIN, probablement au début du XVIème
+          fût créée par la famille DE COUSTIN, probablement au début du XVIème
           siècle.
         </p>
         <p>
@@ -66,7 +66,7 @@ export default function HistoryPage() {
         </p>
         <p>
           La forge restera dans la famille des DE COUSTIN jusqu'en 1725. La
-          châtellenie füt alors rachetée par Jérémie SCLAFER, qui avait épousé
+          châtellenie fût alors rachetée par Jérémie SCLAFER, qui avait épousé
           la sœur de Jean DE COUSTIN. En 1775 elle redevint la propriété de
           Joseph DE COUSTIN, légataire universel de Jérémie SCLAFER. Ni les DE
           COUSTIN ni les SCLAFER n'exploitèrent eux-mêmes leur forge, ils
@@ -110,7 +110,7 @@ export default function HistoryPage() {
           DELTHEIL se trouvant, d'achats en héritages, en possession d'un bloc
           foncier de 650 ha, dont deux forges (Bourzolles et D'Ans près de St
           Geniès en Dordogne). Jouissant de nombreuses relations et du prestige
-          de sa situation, il se lança en politique, et fut pendant vingt années
+          de sa situation, il se lança en politique, et fût pendant vingt années
           consécutives, président ou vice-président du conseil général du Lot.
         </p>
         <p>
