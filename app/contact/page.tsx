@@ -33,10 +33,10 @@ export default function ContactPage() {
         <p>
           <b>Email</b> :{" "}
           <a
-            href="mailto:virginie.destrel@wanadoo.fr"
+            href="mailto:laforgeaufildutemps@gmail.com"
             className="text-blue-600 hover:underline dark:text-blue-400"
           >
-            laforgeaufildutemps@orange.fr
+            laforgeaufildutemps@gmail.com
           </a>
         </p>
 
@@ -44,7 +44,7 @@ export default function ContactPage() {
         <p>
           <b>Tél.</b> :{" "}
           <a
-            href="tel:+33680858085"
+            href="tel:+33767616888"
             className="text-blue-600 hover:underline dark:text-blue-400"
           >
             07 67 61 68 88
