@@ -1,8 +1,10 @@
 import Image from "next/image";
 import Breadcrumbs from "../../../components/breadcrumbs";
+import Link from "next/link";
 
 export const metadata = {
-  title: "Grotte-Chapelle Notre Dame de la Sainte Espérance - Les grottes - Histoire & patrimoine - La Forge au fil du temps",
+  title:
+    "Grotte-Chapelle Notre Dame de la Sainte Espérance - Les grottes - Histoire & patrimoine - La Forge au fil du temps",
   description:
     "Découvrez l'histoire de la grotte-chapelle de Notre Dame de la Sainte Espérance à La Forge de Bourzolles, son origine en 1844 et son développement en pèlerinage au XIXème siècle.",
 };
@@ -71,10 +73,10 @@ export default function TourPage() {
         </p>
 
         <p>
-          En 1890, <b>Julien VALAT</b>, nouveau propriétaire de la
-          Forge, encouragé par Monsieur <b>TOUREILLE</b>, curé de
-          Bourzolles, œuvra pour que la messe, les vêpres et la bénédiction du
-          Saint-Sacrement puissent avoir lieu dans la grotte.
+          En 1890, <b>Julien VALAT</b>, nouveau propriétaire de la Forge,
+          encouragé par Monsieur <b>TOUREILLE</b>, curé de Bourzolles, œuvra
+          pour que la messe, les vêpres et la bénédiction du Saint-Sacrement
+          puissent avoir lieu dans la grotte.
         </p>
 
         <p>
@@ -105,9 +107,9 @@ export default function TourPage() {
         <p>
           Le pape <strong>Léon XIII</strong>, par lettre du 17 septembre de la
           même année, fixait au dernier dimanche de septembre la date du
-          pèlerinage, désignait Monsieur <strong>VERTU</strong>, curé de Souillac, pour la bénédiction du
-          chemin de croix et autorisait la célébration de la messe dans le
-          nouveau sanctuaire six fois par an.
+          pèlerinage, désignait Monsieur <strong>VERTU</strong>, curé de
+          Souillac, pour la bénédiction du chemin de croix et autorisait la
+          célébration de la messe dans le nouveau sanctuaire six fois par an.
         </p>
 
         <p>
@@ -136,9 +138,30 @@ export default function TourPage() {
           d’octobre.
         </p>
 
-        <p className="text-sm italic">
+        <p className="text-sm italic text-right">
           D’après les archives de la Forge Patrimoine
         </p>
+
+        <h2 className="text-3xl font-semibold mb-6 text-center">Pour aller plus loin</h2>
+        <Link
+          href="/histoire/grottes/historique"
+          className="group block rounded-lg overflow-hidden border border-neutral-200 dark:border-neutral-800 hover:shadow-md transition"
+        >
+          <div className="relative h-48">
+            <Image
+              src="/images/grottes/grotte-historique.jpg"
+              alt="Souillac. Grottes de Laforge"
+              fill
+              className="object-cover transition-transform group-hover:scale-105"
+            />
+          </div>
+          <div className="p-4">
+            <h3 className="text-xl font-semibold">
+              Historique des grottes de La Forge par l'Abbé Coldefy
+            </h3>
+            <p className="text-base mt-1">Découvrez l'histoire des grottes.</p>
+          </div>
+        </Link>
       </div>
     </main>
   );

@@ -13,28 +13,8 @@ export default function TourPage() {
     <main className="min-h-screen text-justify">
       <Breadcrumbs />
       <h1 className="text-5xl text-center pt-2 pr-6 pl-6">Les grottes</h1>
-      <div className="mt-6 space-y-2 text-xl leading-relaxed pr-10 pl-10"></div>
       <section className="mt-6 px-10">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <Link
-            href="/histoire/grottes/historique"
-            className="group block rounded-lg overflow-hidden border border-neutral-200 dark:border-neutral-800 hover:shadow-md transition"
-          >
-            <div className="relative h-48">
-              <Image
-                src="/images/grottes/grotte-historique.jpg"
-                alt="Souillac. Grottes de Laforge"
-                fill
-                className="object-cover transition-transform group-hover:scale-105"
-              />
-            </div>
-            <div className="p-4">
-              <h3 className="text-xl font-semibold">Historique des grottes de La Forge par l'Abbé Coldefy</h3>
-              <p className="text-base mt-1">
-                Découvrez l'histoire des grottes.
-              </p>
-            </div>
-          </Link>
           <Link
             href="/histoire/grottes/chapelle"
             className="group block rounded-lg overflow-hidden border border-neutral-200 dark:border-neutral-800 hover:shadow-md transition"
