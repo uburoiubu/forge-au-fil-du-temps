@@ -28,7 +28,7 @@ export default async function Page() {
           </p>
 
           <p>
-            Partager ce magnifique endroit avec la plus grand nombre était une
+            Partager ce magnifique endroit avec le plus grand nombre était une
             évidence !
           </p>
 
