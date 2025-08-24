@@ -28,7 +28,7 @@ export default function TourPage() {
               />
             </div>
             <div className="p-4">
-              <h3 className="text-xl font-semibold">La Grotte - Chapelle de Notre Dame de la Sainte Espérance</h3>
+              <h3 className="text-xl font-semibold">La Grotte — Chapelle de Notre Dame de la Sainte Espérance</h3>
               <p className="text-base mt-1">
                 Découvrez l'histoire des grottes.
               </p>
@@ -48,7 +48,7 @@ export default function TourPage() {
             </div>
             <div className="p-4">
               <h3 className="text-xl font-semibold">
-                La Grotte — "Pis de la vache"
+                La Grotte « Pis de la vache »
               </h3>
               <p className="text-base mt-1">
                 Par Armand VIRÉ
