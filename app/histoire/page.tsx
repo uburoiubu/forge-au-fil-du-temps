@@ -190,7 +190,7 @@ export default function HistoryPage() {
           >
             <div className="relative h-48">
               <Image
-                src="/images/roquefort/tour-roquefort.jpg"
+                src="/images/roquefort/tour-roquefort-2.jpg"
                 alt="La tour Roquefort de Bourzolles"
                 fill
                 className="object-cover transition-transform group-hover:scale-105"

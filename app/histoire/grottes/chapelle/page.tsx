@@ -138,11 +138,47 @@ export default function TourPage() {
           d’octobre.
         </p>
 
-        <p className="text-sm italic text-right">
+        <p className="text-xl italic text-right">
           D’après les archives de la Forge Patrimoine
         </p>
 
-        <h2 className="text-3xl font-semibold mb-6 text-center">Pour aller plus loin</h2>
+        <div className="pt-6 pb-6 grid grid-cols-1 md:grid-cols-2 gap-6">
+          <Image
+            src="/images/grottes/grottes-cp-2.jpg"
+            alt="Château de LAFORGE près Souillac (Lot)"
+            width={800}
+            height={500}
+            className="mx-auto rounded-lg"
+          />
+
+          <Image
+            src="/images/grottes/g d l f 25.jpg"
+            alt="Château de LAFORGE près Souillac (Lot)"
+            width={800}
+            height={500}
+            className="mx-auto rounded-lg border border-neutral-200"
+          />
+
+          <Image
+            src="/images/grottes/g d l f 28.jpg"
+            alt="Château de LAFORGE près Souillac (Lot)"
+            width={800}
+            height={500}
+            className="mx-auto rounded-lg border border-neutral-200"
+          />
+
+          <Image
+            src="/images/grottes/g d l f 29.jpg"
+            alt="Château de LAFORGE près Souillac (Lot)"
+            width={800}
+            height={500}
+            className="mx-auto rounded-lg border border-neutral-200"
+          />
+        </div>
+
+        <h2 className="text-3xl font-semibold mb-6 text-center">
+          Pour aller plus loin
+        </h2>
         <Link
           href="/histoire/grottes/historique"
           className="group block rounded-lg overflow-hidden border border-neutral-200 dark:border-neutral-800 hover:shadow-md transition"

@@ -169,6 +169,48 @@ export default function TourPage() {
           Brive (Musée Labenche), certaines actuellement à la grotte de Pech
           Merle.
         </p>
+
+        <div className="pt-6 pb-6 grid grid-cols-1 md:grid-cols-2 gap-6">
+          <Image
+            src="/images/grottes/grotte viré.jpg"
+            alt="Château de LAFORGE près Souillac (Lot)"
+            width={800}
+            height={500}
+            className="mx-auto rounded-lg border border-neutral-200"
+          />
+
+          <Image
+            src="/images/grottes/fouilles-armand-vire.jpg"
+            alt="Château de LAFORGE près Souillac (Lot)"
+            width={800}
+            height={500}
+            className="mx-auto rounded-lg border border-neutral-200"
+          />
+
+          <Image
+            src="/images/grottes/pis de vache 1.jpg"
+            alt="Château de LAFORGE près Souillac (Lot)"
+            width={800}
+            height={500}
+            className="mx-auto rounded-lg border border-neutral-200"
+          />
+
+          <Image
+            src="/images/grottes/grotte-pis-de-vache.jpg"
+            alt="Château de LAFORGE près Souillac (Lot)"
+            width={800}
+            height={500}
+            className="mx-auto rounded-lg border border-neutral-200"
+          />
+
+          <Image
+            src="/images/grottes/g d l f 7.jpg"
+            alt="Château de LAFORGE près Souillac (Lot)"
+            width={800}
+            height={500}
+            className="mx-auto rounded-lg border border-neutral-200"
+          />
+        </div>
       </div>
     </main>
   );

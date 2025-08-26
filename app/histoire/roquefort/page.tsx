@@ -2,14 +2,27 @@ import Image from "next/image";
 import Breadcrumbs from "../../components/breadcrumbs";
 
 export const metadata = {
-  title: "La tour Roquefort de Bourzolles - Histoire & patrimoine - La Forge au fil du temps",
-  description: "Découvrez l'histoire de la tour Roquefort de Bourzolles, donjon féodal du XIème siècle, témoin de l'histoire médiévale de la région de Souillac."
+  title:
+    "La tour Roquefort de Bourzolles - Histoire & patrimoine - La Forge au fil du temps",
+  description:
+    "Découvrez l'histoire de la tour Roquefort de Bourzolles, donjon féodal du XIème siècle, témoin de l'histoire médiévale de la région de Souillac.",
 };
 
 export default function TourPage() {
   return (
     <main className="min-h-screen text-justify">
       <Breadcrumbs />
+      <div className="w-screen">
+        <Image
+          src="/images/roquefort/tour-roquefort.jpg"
+          alt="Plafond de la maison du maître"
+          width={0}
+          height={0}
+          sizes="100vw"
+          className="w-full h-auto object-cover md:max-h-[400px]"
+          priority
+        />
+      </div>
       <h1 className="text-5xl text-center pt-2 pr-6 pl-6">
         La tour Roquefort de Bourzolles
       </h1>
@@ -108,6 +121,43 @@ export default function TourPage() {
           <i>Archives : Fonds « La Forge patrimoine »</i>
         </p>
 
+        <div className="pt-6 pb-6 grid grid-cols-1 md:grid-cols-2 gap-6">
+          <Image
+            src="/images/roquefort/tour-roquefort.jpg"
+            alt="Château de LAFORGE près Souillac (Lot)"
+            width={800}
+            height={500}
+            className="mx-auto rounded-lg"
+          />
+
+          <Image
+            src="/images/roquefort/tour roquefort Viré gros plan.jpg"
+            alt="Château de LAFORGE près Souillac (Lot)"
+            width={800}
+            height={500}
+            className="mx-auto rounded-lg border border-neutral-200"
+          />
+
+           <Image
+            src="/images/roquefort/tour roquefort Viré.jpg"
+            alt="Château de LAFORGE près Souillac (Lot)"
+            width={800}
+            height={500}
+            className="mx-auto rounded-lg border border-neutral-200"
+          />
+
+           <Image
+            src="/images/roquefort/tour-roquefort-2.jpg"
+            alt="Château de LAFORGE près Souillac (Lot)"
+            width={800}
+            height={500}
+            className="mx-auto rounded-lg border border-neutral-200"
+          />
+
+
+
+        </div>
+
         <a
           href="https://pop.culture.gouv.fr/notice/merimee/IA46101536"
           target="_blank"
@@ -123,9 +173,7 @@ export default function TourPage() {
             />
           </div>
           <div className="p-4">
-            <h3 className="text-xl font-semibold">
-              Château de Roquefort
-            </h3>
+            <h3 className="text-xl font-semibold">Château de Roquefort</h3>
             <p className="text-base mt-1">
               Découvrez la fiche officielle du ministère de la Culture.
             </p>

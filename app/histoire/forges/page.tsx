@@ -24,7 +24,7 @@ export default function TourPage() {
         </p>
 
         <p>
-          Les seigneurs <strong>DE COUSTIN</strong>, châtelains de Bourzolles,
+          Les seigneurs <strong>de Coustin</strong>, châtelains de Bourzolles,
           établirent sur la Borrèze, leurs forges, au début du 16<sup>ème</sup>{" "}
           siècle.
         </p>
@@ -57,11 +57,7 @@ export default function TourPage() {
 
         <p>
           Chaque fondage durait environ 6 mois, nuit et jour. 70 à 80 ouvriers y
-          travaillaient, payés <q>à la tâche</q> :
-        </p>
-
-        <p>
-          Charbonniers, tireurs de mine, charretiers, laveurs de mine,
+          travaillaient, payés <q>à la tâche</q> : charbonniers, tireurs de mine, charretiers, laveurs de mine,
           forgerons, chargeurs, mouleurs…
         </p>
 
@@ -84,9 +80,9 @@ export default function TourPage() {
 
         <p>Elles furent fermées définitivement en 1869.</p>
 
-        <p>
+        <h2>
           <b>Propriétaires successifs des Forges de Bourzolles :</b>
-        </p>
+        </h2>
 
         <ul className="list-none pl-0">
           <li>
@@ -105,6 +101,31 @@ export default function TourPage() {
             <strong>Légataire :</strong> Jean-Baptiste Deltheil jusqu'en 1869
           </li>
         </ul>
+
+        <div className="pt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
+          <Image
+            src="/images/forges/plan forges 1828 bat + lég.jpg"
+            alt="Château de LAFORGE près Souillac (Lot)"
+            width={800}
+            height={500}
+            className="mx-auto rounded-lg"
+          />
+          <Image
+            src="/images/forges/plan forges 1828 batiments.jpg"
+            alt="Château de LAFORGE près Souillac (Lot)"
+            width={800}
+            height={500}
+            className="mx-auto rounded-lg"
+          />
+
+          <Image
+            src="/images/forges/plan forges 1828 légende.jpg"
+            alt="Château de LAFORGE près Souillac (Lot)"
+            width={800}
+            height={500}
+            className="mx-auto rounded-lg"
+          />
+        </div>
       </div>
     </main>
   );
