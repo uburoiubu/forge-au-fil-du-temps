@@ -26,7 +26,7 @@ export default function VisiterPage() {
           <b>Bienvenue à la Forge</b>
         </p>
 
-        <p>La maison vous est ouverte librement à la visite.</p>
+        <p>La maison vous est ouverte librement à la visite sur rendez-vous, soit lors des animations.</p>
 
         <p>
           Vous avez accès à tous les étages, mais toutes les pièces ne sont pas
