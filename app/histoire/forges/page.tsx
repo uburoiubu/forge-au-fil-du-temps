@@ -24,7 +24,7 @@ export default function TourPage() {
         </p>
 
         <p>
-          Les seigneurs <strong>DE COURTIN</strong>, châtelains de Bourzolles,
+          Les seigneurs <strong>DE COUSTIN</strong>, châtelains de Bourzolles,
           établirent sur la Borrèze, leurs forges, au début du 16<sup>ème</sup>{" "}
           siècle.
         </p>

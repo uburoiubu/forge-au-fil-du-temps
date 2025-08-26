@@ -17,7 +17,7 @@ export default async function Page() {
         <div className="mt-6 space-y-2 text-xl text-center pl-10 pr-10">
           <p>
             L'association a été créée en août 2018, sous l'impulsion de la
-            nouvelle propriétaire d'une partie site, Virginie DESTREL, bien
+            nouvelle propriétaire d'une partie du site, Virginie DESTREL, bien
             consciente de l'attachement de nombreux Souillagais à ce lieu et à
             son histoire, aussi bien humaine qu'industrielle: tout d'abord,
             l'usine de forge avec son bief et les vestiges du haut fourneau, la
@@ -74,7 +74,7 @@ export default async function Page() {
           <p>Nous vous attendons!</p>
 
           <p className="mt-6">
-            Adhésion annuelle: <i>à partir de 10€</i>
+            Adhésion annuelle: <i>à partir de 10 €</i>
           </p>
 
           <div className="mt-8 text-center mb-16">

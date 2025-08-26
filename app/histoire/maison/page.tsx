@@ -45,7 +45,7 @@ export default function TourPage() {
         </p>
 
         <p>
-          Jean-Baptiste fût pendant 20 ans président ou vice-président du
+          Jean-Baptiste fut pendant 20 ans président ou vice-président du
           conseil général du Lot.
         </p>
 

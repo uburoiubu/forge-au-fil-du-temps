@@ -70,7 +70,7 @@ export default function Home() {
         <h1 className="max-w-4xl px-4 text-4xl md:text-4xl">
           <b>La Forge au fil du temps</b> est une association dont le but est de
           sauvegarder, de valoriser et d&apos;animer le site des anciennes
-          Forges de Bourzolles à Souillac.
+          forges de Bourzolles à Souillac.
         </h1>
 
         <section className="block px-4 pb-8 w-full">
