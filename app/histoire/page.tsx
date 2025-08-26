@@ -171,7 +171,7 @@ export default function HistoryPage() {
           >
             <div className="relative h-48">
               <Image
-                src="/images/grottes/grottes-cp.jpg"
+                src="/images/grottes/fouilles-armand-vire.jpg"
                 alt="Souillac. Grottes de Laforge"
                 fill
                 className="object-cover transition-transform group-hover:scale-105"

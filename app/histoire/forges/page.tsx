@@ -11,6 +11,17 @@ export default function TourPage() {
   return (
     <main className="min-h-screen text-justify">
       <Breadcrumbs />
+      <div className="w-screen">
+        <Image
+          src="/images/forges/plan-forges-1828-haut-fourneau.jpg"
+          alt="Plafond de la maison du maître"
+          width={0}
+          height={0}
+          sizes="100vw"
+          className="w-full h-auto object-cover md:max-h-[400px]"
+          priority
+        />
+      </div>
       <h1 className="text-5xl text-center pt-2 pr-6 pl-6">
         Les Forges de Bourzolles
       </h1>
@@ -57,8 +68,8 @@ export default function TourPage() {
 
         <p>
           Chaque fondage durait environ 6 mois, nuit et jour. 70 à 80 ouvriers y
-          travaillaient, payés <q>à la tâche</q> : charbonniers, tireurs de mine, charretiers, laveurs de mine,
-          forgerons, chargeurs, mouleurs…
+          travaillaient, payés <q>à la tâche</q> : charbonniers, tireurs de
+          mine, charretiers, laveurs de mine, forgerons, chargeurs, mouleurs…
         </p>
 
         <p>
@@ -120,6 +131,14 @@ export default function TourPage() {
 
           <Image
             src="/images/forges/plan forges 1828 légende.jpg"
+            alt="Château de LAFORGE près Souillac (Lot)"
+            width={800}
+            height={500}
+            className="mx-auto rounded-lg"
+          />
+
+          <Image
+            src="/images/forges/plan-forges-1828-haut-fourneau.jpg"
             alt="Château de LAFORGE près Souillac (Lot)"
             width={800}
             height={500}
