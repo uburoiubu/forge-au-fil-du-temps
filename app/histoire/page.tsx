@@ -27,20 +27,20 @@ export default function HistoryPage() {
       <div className="mt-6 space-y-2 text-xl leading-relaxed pr-10 pl-10">
         <p>
           Le lieu doit son nom à l’ancienne activité de forge ou de fonderie qui
-          a été créée par la famille de Coustin, probablement au début du XVIᵉ
-          siècle.
+          a été créée par la famille <strong>de Coustin</strong>, probablement
+          au début du XVIᵉ siècle.
         </p>
 
         <p>
-          Les seigneurs de Coustin, profitant des progrès de la sidérurgie,
-          établissent une forge sur la rivière Borrèze, à l’emplacement d’un
-          ancien moulin dit &laquo; du Boulet &raquo;.
+          Les seigneurs <strong>de Coustin</strong>, profitant des progrès de la
+          sidérurgie, établissent une forge sur la rivière Borrèze, à
+          l’emplacement d’un ancien moulin dit &laquo; du Boulet &raquo;.
         </p>
 
         <p>
           Plusieurs propriétaires se succèdent au cours de périodes plus ou
-          moins fastes, le dernier étant Jean-Baptiste Deltheil et son épouse
-          Anaïs, descendante d’Alexandre de Beauharnais.
+          moins fastes, le dernier étant Jean-Baptiste <strong>Deltheil</strong>{" "}
+          et son épouse Anaïs, descendante d’Alexandre de Beauharnais.
         </p>
 
         <p>
@@ -51,44 +51,47 @@ export default function HistoryPage() {
         </p>
 
         <p>
-          En 1887, Julien Valat devient le nouveau propriétaire du site. Il
-          entreprend de le rénover et, passionné d’électricité, il installe une
-          petite centrale hydraulique à la place de l’affinerie pour utiliser la
-          chute d’eau, illuminer le parc et alimenter la maison en eau courante.
+          En 1887, Julien <strong>Valat</strong> devient le nouveau propriétaire
+          du site. Il entreprend de le rénover et, passionné d’électricité, il
+          installe une petite centrale hydraulique à la place de l’affinerie
+          pour utiliser la chute d’eau, illuminer le parc et alimenter la maison
+          en eau courante.
         </p>
 
         <p>
           En 1900, la ville de Souillac souhaite s’ouvrir à l’électricité. Elle
-          signe une convention avec M. Valat et la petite centrale devient une
-          usine électrique&nbsp;: l’usine &laquo; Ste Thérèse &raquo;, qui
-          fonctionnera jusqu’en 1930.
+          signe une convention avec M. <strong>Valat</strong> et la petite
+          centrale devient une usine électrique&nbsp;: l’usine &laquo; Ste
+          Thérèse &raquo;, qui fonctionnera jusqu’en 1930.
         </p>
 
         <p>
-          Julien Valat travaille aussi à embellir et agrandir la demeure des
-          anciens maîtres de forge.
+          Julien <strong>Valat</strong> travaille aussi à embellir et agrandir
+          la demeure des anciens maîtres de forge.
         </p>
 
         <p>
-          Il poursuit également &laquo; l’œuvre &raquo; de Mme Deltheil en
-          améliorant l’accès à la &laquo; grotte-chapelle &raquo;.
+          Il poursuit également &laquo; l’œuvre &raquo; de Mme{" "}
+          <strong>Deltheil</strong> en améliorant l’accès à la &laquo;
+          grotte-chapelle &raquo;.
         </p>
 
         <p>
-          Jean-Baptiste Deltheil possédait de nombreux ouvrages littéraires.
-          Julien Valat enrichit à son tour cette bibliothèque.
+          Jean-Baptiste <strong>Deltheil</strong> possédait de nombreux ouvrages
+          littéraires. Julien <strong>Valat</strong> enrichit à son tour cette
+          bibliothèque.
         </p>
 
         <p>
-          Son arrière-petite-fille, Marie-Anne Lacoste, met ces magnifiques
-          ouvrages à la disposition du public en créant une association&nbsp;:
-          &laquo; La Forge Patrimoine &raquo;.
+          Son arrière-petite-fille, Marie-Anne <strong>Lacoste</strong>, met ces
+          magnifiques ouvrages à la disposition du public en créant une
+          association&nbsp;: &laquo; La Forge Patrimoine &raquo;.
         </p>
 
         <p>
-          À son décès, sa fille Florence Lacoste fait don à la bibliothèque de
-          Souillac de ces nombreux ouvrages, cartes postales et photos, qui
-          constituent un fonds patrimonial extrêmement riche&nbsp;!
+          À son décès, sa fille Florence <strong>Lacoste</strong> fait don à la
+          bibliothèque de Souillac de ces nombreux ouvrages, cartes postales et
+          photos, qui constituent un fonds patrimonial extrêmement riche&nbsp;!
         </p>
 
         <p>Ils sont consultables sur rendez-vous.</p>
