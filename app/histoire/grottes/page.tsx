@@ -51,7 +51,7 @@ export default function TourPage() {
                 La Grotte « Pis de la vache »
               </h3>
               <p className="text-base mt-1">
-                Par Armand VIRÉ
+                Par Armand Viré
               </p>
             </div>
           </Link>

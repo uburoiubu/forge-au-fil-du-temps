@@ -2,8 +2,10 @@ import Image from "next/image";
 import Breadcrumbs from "../../components/breadcrumbs";
 
 export const metadata = {
-  title: "L'usine électrique Sainte Thérèse - Histoire & patrimoine - La Forge au fil du temps",
-  description: "Découvrez l'histoire de l'usine électrique Sainte Thérèse à La Forge de Bourzolles, la première centrale hydroélectrique ayant alimenté Souillac en électricité."
+  title:
+    "L'usine électrique Sainte Thérèse - Histoire & patrimoine - La Forge au fil du temps",
+  description:
+    "Découvrez l'histoire de l'usine électrique Sainte Thérèse à La Forge de Bourzolles, la première centrale hydroélectrique ayant alimenté Souillac en électricité.",
 };
 
 export default function UsinePage() {
@@ -14,12 +16,12 @@ export default function UsinePage() {
         L'usine électrique Sainte Thérèse à La Forge (Souillac)
       </h1>
       <Image
-                src="/images/usine.jpg"
-                alt="Château de LAFORGE près Souillac (Lot)"
-                width={800}
-                height={500}
-                className="mx-auto rounded-lg pr-12 pl-12"
-              />
+        src="/images/usine.jpg"
+        alt="Château de LAFORGE près Souillac (Lot)"
+        width={800}
+        height={500}
+        className="mx-auto rounded-lg pr-12 pl-12"
+      />
       <div className="mt-6 space-y-2 text-xl leading-relaxed pr-10 pl-10">
         <p>
           En 1897, sur l'emplacement de l'ancienne forge dont il utilise la
@@ -131,6 +133,55 @@ export default function UsinePage() {
         <p className="text-right">
           <i>Archives : La Forge Patrimoine</i>
         </p>
+
+        <div className="pt-6 pb-6 grid grid-cols-1 md:grid-cols-2 gap-6">
+          <Image
+            src="/images/usine/photo usine.jpg"
+            alt="Château de LAFORGE près Souillac (Lot)"
+            width={800}
+            height={500}
+            className="mx-auto rounded-lg border border-neutral-200"
+          />
+
+          <Image
+            src="/images/usine/usine de gaz de bois CP.jpg"
+            alt="Château de LAFORGE près Souillac (Lot)"
+            width={800}
+            height={500}
+            className="mx-auto rounded-lg border border-neutral-200"
+          />
+          <Image
+            src="/images/usine/photo centrale 1900.jpg"
+            alt="Château de LAFORGE près Souillac (Lot)"
+            width={800}
+            height={500}
+            className="mx-auto rounded-lg"
+          />
+
+          <Image
+            src="/images/usine/photo extérieur usine électrique.jpg"
+            alt="Château de LAFORGE près Souillac (Lot)"
+            width={800}
+            height={500}
+            className="mx-auto rounded-lg border border-neutral-200"
+          />
+
+          <Image
+            src="/images/usine/photo i u e 2.jpg"
+            alt="Château de LAFORGE près Souillac (Lot)"
+            width={800}
+            height={500}
+            className="mx-auto rounded-lg border border-neutral-200"
+          />
+
+          <Image
+            src="/images/usine/photo intérieur usine électrique.jpg"
+            alt="Château de LAFORGE près Souillac (Lot)"
+            width={800}
+            height={500}
+            className="mx-auto rounded-lg border border-neutral-200"
+          />
+        </div>
       </div>
     </main>
   );
