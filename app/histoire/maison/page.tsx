@@ -19,7 +19,7 @@ const galleryImages: GalleryImage[] = [
   { src: "/images/maison/parc/parc neige.jpg", width: 1600, height: 1000, alt: "Parc sous la neige" },
   { src: "/images/maison/parc/parc 2.jpg", width: 1600, height: 1000, alt: "Parc" },
   { src: "/images/maison/route/route bis.jpg", width: 1600, height: 1000, alt: "Route" },
-  { src: "/images/maison/route/route + drt.jpg", width: 1600, height: 1000, alt: "Route" },
+  { src: "/images/maison/route/route-plus-drt.jpg", width: 1600, height: 1000, alt: "Route" },
   { src: "/images/maison/grande allée.jpg", width: 1600, height: 1000, alt: "Grande allée" },
   { src: "/images/maison/famille/famille 2 - h.jpg", width: 1600, height: 1000, alt: "Famille" },
   { src: "/images/maison/famille/famille 1 - h.jpg", width: 1600, height: 1000, alt: "Famille" },
