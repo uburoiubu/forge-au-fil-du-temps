@@ -33,7 +33,7 @@ export default async function Page() {
           </p>
 
           <p>
-            L'association à donc pour but de valoriser le patrimoine historique
+            L'association a donc pour but de valoriser le patrimoine historique
             et immobilier du site et de l'animer culturellement et
             artistiquement.
           </p>
