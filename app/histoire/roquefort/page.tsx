@@ -12,18 +12,16 @@ export default function TourPage() {
   return (
     <main className="min-h-screen text-justify">
       <Breadcrumbs />
-      <div className="w-screen">
+      <div className="w-full relative h-[25vh] sm:h-[300px] md:h-[400px]">
         <Image
           src="/images/roquefort/tour-roquefort.jpg"
           alt="Plafond de la maison du maître"
-          width={0}
-          height={0}
-          sizes="100vw"
-          className="w-full h-auto object-cover md:max-h-[400px]"
+          fill
+          className="object-cover"
           priority
         />
       </div>
-      <h1 className="text-5xl text-center pt-2 pr-6 pl-6">
+      <h1 className="text-5xl text-center pt-6 pr-6 pl-6">
         La tour Roquefort de Bourzolles
       </h1>
       <div className="mt-6 space-y-2 text-xl leading-relaxed pr-10 pl-10">
@@ -138,7 +136,7 @@ export default function TourPage() {
             className="mx-auto rounded-lg border border-neutral-200"
           />
 
-           <Image
+          <Image
             src="/images/roquefort/tour roquefort Viré.jpg"
             alt="Château de LAFORGE près Souillac (Lot)"
             width={800}
@@ -146,16 +144,13 @@ export default function TourPage() {
             className="mx-auto rounded-lg border border-neutral-200"
           />
 
-           <Image
+          <Image
             src="/images/roquefort/tour-roquefort-2.jpg"
             alt="Château de LAFORGE près Souillac (Lot)"
             width={800}
             height={500}
             className="mx-auto rounded-lg border border-neutral-200"
           />
-
-
-
         </div>
 
         <a
