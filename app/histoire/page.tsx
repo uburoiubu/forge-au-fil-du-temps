@@ -131,7 +131,7 @@ export default function HistoryPage() {
               />
             </div>
             <div className="p-4">
-              <h3 className="text-xl font-semibold">La grande maison</h3>
+              <h3 className="text-xl font-semibold">La grande maison et le parc</h3>
               <p className="text-base mt-1">
                 Découvrez l'histoire de la grande maison.
               </p>
