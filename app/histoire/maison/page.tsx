@@ -219,7 +219,7 @@ export default function TourPage() {
             className="mx-auto rounded-lg"
           />
 
-                    <Image
+          <Image
             src="/images/maison/famille/famille 2 - h.jpg"
             alt="Château de LAFORGE près Souillac (Lot)"
             width={800}
@@ -245,6 +245,14 @@ export default function TourPage() {
 
           <Image
             src="/images/maison/famille/famille 4 - v.jpg"
+            alt="Château de LAFORGE près Souillac (Lot)"
+            width={800}
+            height={500}
+            className="mx-auto rounded-lg"
+          />
+
+          <Image
+            src="/images/maison/famille/famille 6 - h.jpg"
             alt="Château de LAFORGE près Souillac (Lot)"
             width={800}
             height={500}
