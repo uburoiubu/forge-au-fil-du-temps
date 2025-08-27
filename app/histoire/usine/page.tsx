@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Breadcrumbs from "../../components/breadcrumbs";
+import Gallery, { type GalleryImage } from "../../components/gallery";
 
 export const metadata = {
   title:
@@ -8,10 +9,56 @@ export const metadata = {
     "Découvrez l'histoire de l'usine électrique Sainte Thérèse à La Forge de Bourzolles, la première centrale hydroélectrique ayant alimenté Souillac en électricité.",
 };
 
+const galleryImages: GalleryImage[] = [
+  {
+    src: "/images/usine/photo usine.jpg",
+    width: 1600,
+    height: 1000,
+    alt: "Château de LAFORGE près Souillac (Lot)",
+  },
+  {
+    src: "/images/usine/usine de gaz de bois CP.jpg",
+    width: 1600,
+    height: 1000,
+    alt: "Château de LAFORGE près Souillac (Lot)",
+  },
+  {
+    src: "/images/usine/photo centrale 1900.jpg",
+    width: 1600,
+    height: 1000,
+    alt: "Château de LAFORGE près Souillac (Lot)",
+  },
+  {
+    src: "/images/usine/photo extérieur usine électrique.jpg",
+    width: 1600,
+    height: 1000,
+    alt: "Château de LAFORGE près Souillac (Lot)",
+  },
+  {
+    src: "/images/usine/photo i u e 2.jpg",
+    width: 1600,
+    height: 1000,
+    alt: "Château de LAFORGE près Souillac (Lot)",
+  },
+  {
+    src: "/images/usine/photo intérieur usine électrique.jpg",
+    width: 1600,
+    height: 1000,
+    alt: "Château de LAFORGE près Souillac (Lot)",
+  },
+  {
+    src: "/images/usine.jpg",
+    width: 1600,
+    height: 1000,
+    alt: "Château de LAFORGE près Souillac (Lot)",
+  },
+];
+
 export default function UsinePage() {
   return (
     <main className="min-h-screen text-justify">
       <Breadcrumbs />
+
       <div className="w-full relative h-[25vh] sm:h-[300px] md:h-[400px]">
         <Image
           src="/images/usine/photo usine.jpg"
@@ -21,36 +68,38 @@ export default function UsinePage() {
           priority
         />
       </div>
+
       <h1 className="text-5xl text-center p-6">
-        L'usine électrique Sainte Thérèse à La Forge
+        L&apos;usine électrique Sainte Thérèse à La Forge
       </h1>
+
       <div className="space-y-2 text-xl leading-relaxed pr-10 pl-10">
         <p>
-          En 1897, sur l'emplacement de l'ancienne forge dont il utilise la
-          chute d'eau, Julien Valat crée une petite usine électrique pour
-          fournir l'éclairage des lieux et, grâce à une pompe qu'elle actionne,
-          assurer la distribution d'eau au château et à ses dépendances. Cette
-          petite usine, d'intérêt privé et familial, avec sa turbine d'une
+          En 1897, sur l&apos;emplacement de l&apos;ancienne forge dont il utilise la
+          chute d&apos;eau, Julien Valat crée une petite usine électrique pour
+          fournir l&apos;éclairage des lieux et, grâce à une pompe qu&apos;elle actionne,
+          assurer la distribution d&apos;eau au château et à ses dépendances. Cette
+          petite usine, d&apos;intérêt privé et familial, avec sa turbine d&apos;une
           vingtaine de chevaux accouplée à une dynamo à courant continu, ne va
-          pas tarder à prendre de l'importance.
+          pas tarder à prendre de l&apos;importance.
         </p>
 
         <p>
-          La municipalité de Souillac souhaitant bénéficier de l'éclairage
+          La municipalité de Souillac souhaitant bénéficier de l&apos;éclairage
           électrique, demande à M. Valat de le lui fournir. Pour cela la
-          municipalité s'engage à lui consentir une concession de monopole de
+          municipalité s&apos;engage à lui consentir une concession de monopole de
           fourniture pour une période de 33 ans, à partir du 15 août 1900.
         </p>
 
         <p>
           Julien accepte et fait transformer sa petite installation pour lui
-          donner une puissance en rapport avec l'importance de la concession.
+          donner une puissance en rapport avec l&apos;importance de la concession.
         </p>
 
         <p>
           Il fait surélever de deux mètres les murs du canal de retenue et
           approfondir la « défuite » (évacuation). Il obtient ainsi une chute
-          d'eau de 6 mètres qui permettra à la turbine, après de sérieuses
+          d&apos;eau de 6 mètres qui permettra à la turbine, après de sérieuses
           modifications, de développer dans les 40 chevaux de force.
         </p>
 
@@ -64,10 +113,10 @@ export default function UsinePage() {
 
         <p>
           Pour parer à un éventuel manque de force en période de basses eaux, il
-          fait construire, non loin de l'usine, un gazogène à anthracite.
+          fait construire, non loin de l&apos;usine, un gazogène à anthracite.
         </p>
 
-        <p>L'usine comprend donc :</p>
+        <p>L&apos;usine comprend donc :</p>
         <ul>
           <li>1) la salle des machines</li>
           <li>2) le gazogène</li>
@@ -75,7 +124,7 @@ export default function UsinePage() {
         </ul>
 
         <p>
-          La ville de Souillac est reliée à l'usine par une canalisation à 3
+          La ville de Souillac est reliée à l&apos;usine par une canalisation à 3
           fils posée sur poteaux en bois. Sur ces mêmes poteaux, un téléphone
           particulier relie La Forge à Souillac.
         </p>
@@ -94,13 +143,13 @@ export default function UsinePage() {
 
         <p>
           Par cette acquisition, Julien pense avoir mis son usine définitivement
-          au point. Malheureusement, moins d'un an après, elle est détruite par
-          un incendie. La machinerie a été sauvée ou n'a été que légèrement
+          au point. Malheureusement, moins d&apos;un an après, elle est détruite par
+          un incendie. La machinerie a été sauvée ou n&apos;a été que légèrement
           détériorée.
         </p>
 
         <p>
-          Quant à l'immeuble, Julien en profite pour le faire reconstruire et
+          Quant à l&apos;immeuble, Julien en profite pour le faire reconstruire et
           aménager dans les meilleures conditions possibles : charpentes en fer,
           avec intervalles garnis de briques, baies larges et hautes sur les
           côtés et verrières à la toiture. Il fait installer un pont roulant
@@ -111,86 +160,34 @@ export default function UsinePage() {
 
         <p>
           Ce travail de reconstruction et de réaménagement est réalisé
-          rapidement, et le 15 août 1913, l'usine est de nouveau mise en marche
-          et peut assurer, mieux encore, l'éclairage de Souillac.
+          rapidement, et le 15 août 1913, l&apos;usine est de nouveau mise en marche
+          et peut assurer, mieux encore, l&apos;éclairage de Souillac.
         </p>
 
         <p>En 1926, Robert, le fils de Julien, en prend la direction.</p>
 
         <p>
-          Ses connaissances d'ingénieur électricien lui font mener à bien son
-          travail, tant du point de vue pratique que financier : l'usine qui
+          Ses connaissances d&apos;ingénieur électricien lui font mener à bien son
+          travail, tant du point de vue pratique que financier : l&apos;usine qui
           rapportait 15 000 F en 1910, 60 000 F en 1925, en rapporte près de 250
           000 F en 1930.
         </p>
 
         <p>
-          Pourtant, par acte du 1<sup>er</sup> octobre 1930, il cède à l'Union
-          Électrique Rurale son droit de concession d'éclairage, que la ville de
+          Pourtant, par acte du 1<sup>er</sup> octobre 1930, il cède à l&apos;Union
+          Électrique Rurale son droit de concession d&apos;éclairage, que la ville de
           Souillac lui avait renouvelé pour une période de 35 ans.
         </p>
 
-        <p>L'usine de La Forge, avec tout son matériel, reste sa propriété.</p>
+        <p>L&apos;usine de La Forge, avec tout son matériel, reste sa propriété.</p>
 
         <p className="text-right">
           <i>Archives : La Forge Patrimoine</i>
         </p>
 
-        <div className="pt-6 pb-6 grid grid-cols-1 md:grid-cols-2 gap-6">
-          <Image
-            src="/images/usine/photo usine.jpg"
-            alt="Château de LAFORGE près Souillac (Lot)"
-            width={800}
-            height={500}
-            className="mx-auto rounded-lg border border-neutral-200"
-          />
-
-          <Image
-            src="/images/usine/usine de gaz de bois CP.jpg"
-            alt="Château de LAFORGE près Souillac (Lot)"
-            width={800}
-            height={500}
-            className="mx-auto rounded-lg border border-neutral-200"
-          />
-          <Image
-            src="/images/usine/photo centrale 1900.jpg"
-            alt="Château de LAFORGE près Souillac (Lot)"
-            width={800}
-            height={500}
-            className="mx-auto rounded-lg"
-          />
-
-          <Image
-            src="/images/usine/photo extérieur usine électrique.jpg"
-            alt="Château de LAFORGE près Souillac (Lot)"
-            width={800}
-            height={500}
-            className="mx-auto rounded-lg border border-neutral-200"
-          />
-
-          <Image
-            src="/images/usine/photo i u e 2.jpg"
-            alt="Château de LAFORGE près Souillac (Lot)"
-            width={800}
-            height={500}
-            className="mx-auto rounded-lg border border-neutral-200"
-          />
-
-          <Image
-            src="/images/usine/photo intérieur usine électrique.jpg"
-            alt="Château de LAFORGE près Souillac (Lot)"
-            width={800}
-            height={500}
-            className="mx-auto rounded-lg border border-neutral-200"
-          />
-
-          <Image
-            src="/images/usine.jpg"
-            alt="Château de LAFORGE près Souillac (Lot)"
-            width={800}
-            height={500}
-            className="mx-auto rounded-lg border border-neutral-200"
-          />
+        {/* GALLERIE (lightbox) */}
+        <div className="pt-6 pb-6">
+          <Gallery images={galleryImages} />
         </div>
       </div>
     </main>

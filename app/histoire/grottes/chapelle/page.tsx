@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Breadcrumbs from "../../../components/breadcrumbs";
 import Link from "next/link";
+import Gallery, { type GalleryImage } from "../../../components/gallery";
 
 export const metadata = {
   title:
@@ -8,6 +9,33 @@ export const metadata = {
   description:
     "Découvrez l'histoire de la grotte-chapelle de Notre Dame de la Sainte Espérance à La Forge de Bourzolles, son origine en 1844 et son développement en pèlerinage au XIXème siècle.",
 };
+
+const galleryImages: GalleryImage[] = [
+  {
+    src: "/images/grottes/grottes-cp-2.jpg",
+    width: 1600,
+    height: 1000,
+    alt: "Château de LAFORGE près Souillac (Lot)",
+  },
+  {
+    src: "/images/grottes/g d l f 25.jpg",
+    width: 1600,
+    height: 1000,
+    alt: "Château de LAFORGE près Souillac (Lot)",
+  },
+  {
+    src: "/images/grottes/g d l f 28.jpg",
+    width: 1600,
+    height: 1000,
+    alt: "Château de LAFORGE près Souillac (Lot)",
+  },
+  {
+    src: "/images/grottes/g d l f 29.jpg",
+    width: 1600,
+    height: 1000,
+    alt: "Château de LAFORGE près Souillac (Lot)",
+  },
+];
 
 export default function TourPage() {
   return (
@@ -18,16 +46,16 @@ export default function TourPage() {
       </h1>
       <div className="mt-6 space-y-2 text-xl leading-relaxed pr-10 pl-10">
         <p>
-          Au milieu du XIX<sup>ème</sup> siècle, Monsieur Lecomte, père d'Anaïs{" "}
+          Au milieu du XIX<sup>ème</sup> siècle, Monsieur Lecomte, père d&apos;Anaïs{" "}
           <b>DELTHEIL</b> (1811–1887), épouse du dernier maître des forges, et
-          l'abbé <b>PECHMEGE</b>, curé de Bourzolles, avaient l'habitude de se
+          l&apos;abbé <b>PECHMEGE</b>, curé de Bourzolles, avaient l&apos;habitude de se
           promener dans les bois de la combe du Play.
         </p>
 
         <p>
-          Leur promenade se terminait à mi-côte, près d'un rocher qui présente
+          Leur promenade se terminait à mi-côte, près d&apos;un rocher qui présente
           une petite anfractuosité. Ils eurent la pieuse inspiration de placer
-          dans cette sorte de niche naturelle une statue de la Vierge, ce qu'ils
+          dans cette sorte de niche naturelle une statue de la Vierge, ce qu&apos;ils
           firent le samedi 26 octobre 1844.
         </p>
 
@@ -39,12 +67,12 @@ export default function TourPage() {
         <p>
           Anaïs DELTHEIL, qui voyageait souvent à Paris, avait une grande
           dévotion à Notre Dame de Saint-Séverin, connue et honorée depuis 1840
-          sous le titre d'Immaculée Mère de la Sainte Espérance.
+          sous le titre d&apos;Immaculée Mère de la Sainte Espérance.
         </p>
 
         <p>
           Elle eut le désir de pouvoir la prier lors de ses séjours à la Forge
-          et le souhait d'établir un pèlerinage en son honneur.
+          et le souhait d&apos;établir un pèlerinage en son honneur.
         </p>
 
         <p>
@@ -54,15 +82,15 @@ export default function TourPage() {
 
         <p>
           La statue de Notre Dame de la Sainte Espérance fut achetée et bénie
-          sur l'autel même de Saint-Séverin. Une grande croix fut placée sur le
+          sur l&apos;autel même de Saint-Séverin. Une grande croix fut placée sur le
           rocher qui domine la grotte.
         </p>
 
         <p>
           Le 10 octobre 1858, une procession réunissant les paroisses de
           Souillac, de Reyrevignes et de Bourzolles accompagna la statue sur le
-          chemin élargi à cette intention, et l'on plaça la statue dans sa niche
-          au chant des cantiques créés pour l'occasion.
+          chemin élargi à cette intention, et l&apos;on plaça la statue dans sa niche
+          au chant des cantiques créés pour l&apos;occasion.
         </p>
 
         <p>
@@ -142,38 +170,9 @@ export default function TourPage() {
           D’après les archives de la Forge Patrimoine
         </p>
 
-        <div className="pt-6 pb-6 grid grid-cols-1 md:grid-cols-2 gap-6">
-          <Image
-            src="/images/grottes/grottes-cp-2.jpg"
-            alt="Château de LAFORGE près Souillac (Lot)"
-            width={800}
-            height={500}
-            className="mx-auto rounded-lg"
-          />
-
-          <Image
-            src="/images/grottes/g d l f 25.jpg"
-            alt="Château de LAFORGE près Souillac (Lot)"
-            width={800}
-            height={500}
-            className="mx-auto rounded-lg border border-neutral-200"
-          />
-
-          <Image
-            src="/images/grottes/g d l f 28.jpg"
-            alt="Château de LAFORGE près Souillac (Lot)"
-            width={800}
-            height={500}
-            className="mx-auto rounded-lg border border-neutral-200"
-          />
-
-          <Image
-            src="/images/grottes/g d l f 29.jpg"
-            alt="Château de LAFORGE près Souillac (Lot)"
-            width={800}
-            height={500}
-            className="mx-auto rounded-lg border border-neutral-200"
-          />
+        {/* GALLERIE (lightbox) */}
+        <div className="pt-6 pb-6">
+          <Gallery images={galleryImages} />
         </div>
 
         <h2 className="text-3xl font-semibold mb-6 text-center">
@@ -193,9 +192,9 @@ export default function TourPage() {
           </div>
           <div className="p-4">
             <h3 className="text-xl font-semibold">
-              Historique des grottes de La Forge par l'Abbé Coldefy
+              Historique des grottes de La Forge par l&apos;Abbé Coldefy
             </h3>
-            <p className="text-base mt-1">Découvrez l'histoire des grottes.</p>
+            <p className="text-base mt-1">Découvrez l&apos;histoire des grottes.</p>
           </div>
         </Link>
       </div>

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Breadcrumbs from "../../../components/breadcrumbs";
+import Gallery, { type GalleryImage } from "../../../components/gallery";
 
 export const metadata = {
   title:
@@ -7,6 +8,39 @@ export const metadata = {
   description:
     "Découvrez l'étude archéologique de la grotte du Pis de la Vache par Armand Viré, site préhistorique unique avec vestiges du Moustérien au Néolithique à La Forge de Bourzolles.",
 };
+
+const galleryImages: GalleryImage[] = [
+  {
+    src: "/images/grottes/grotte viré.jpg",
+    width: 1600,
+    height: 1000,
+    alt: "Château de LAFORGE près Souillac (Lot)",
+  },
+  {
+    src: "/images/grottes/fouilles-armand-vire.jpg",
+    width: 1600,
+    height: 1000,
+    alt: "Château de LAFORGE près Souillac (Lot)",
+  },
+  {
+    src: "/images/grottes/pis de vache 1.jpg",
+    width: 1600,
+    height: 1000,
+    alt: "Château de LAFORGE près Souillac (Lot)",
+  },
+  {
+    src: "/images/grottes/grotte-pis-de-vache.jpg",
+    width: 1600,
+    height: 1000,
+    alt: "Château de LAFORGE près Souillac (Lot)",
+  },
+  {
+    src: "/images/grottes/g d l f 7.jpg",
+    width: 1600,
+    height: 1000,
+    alt: "Château de LAFORGE près Souillac (Lot)",
+  },
+];
 
 export default function TourPage() {
   return (
@@ -36,6 +70,7 @@ export default function TourPage() {
           Les fouilles exécutées par Armand Viré en 1932
         </p>
       </div>
+
       <div className="mt-6 space-y-2 text-xl leading-relaxed pr-10 pl-10">
         <p>
           Parmi toutes les stations préhistoriques que nous avons fouillées dans
@@ -44,9 +79,9 @@ export default function TourPage() {
         </p>
 
         <p>
-          C'est la seule qui nous ait donné une superposition de foyers
-          s'étendant depuis le <b>Moustérien</b> (entre 350 000 et 35 000 ans
-          avant le présent) jusqu'au <b>Néolithique</b> (entre 6000 et 3000 ans
+          C&apos;est la seule qui nous ait donné une superposition de foyers
+          s&apos;étendant depuis le <b>Moustérien</b> (entre 350 000 et 35 000 ans
+          avant le présent) jusqu&apos;au <b>Néolithique</b> (entre 6000 et 3000 ans
           avant le présent).
         </p>
 
@@ -170,46 +205,9 @@ export default function TourPage() {
           Merle.
         </p>
 
-        <div className="pt-6 pb-6 grid grid-cols-1 md:grid-cols-2 gap-6">
-          <Image
-            src="/images/grottes/grotte viré.jpg"
-            alt="Château de LAFORGE près Souillac (Lot)"
-            width={800}
-            height={500}
-            className="mx-auto rounded-lg border border-neutral-200"
-          />
-
-          <Image
-            src="/images/grottes/fouilles-armand-vire.jpg"
-            alt="Château de LAFORGE près Souillac (Lot)"
-            width={800}
-            height={500}
-            className="mx-auto rounded-lg border border-neutral-200"
-          />
-
-          <Image
-            src="/images/grottes/pis de vache 1.jpg"
-            alt="Château de LAFORGE près Souillac (Lot)"
-            width={800}
-            height={500}
-            className="mx-auto rounded-lg border border-neutral-200"
-          />
-
-          <Image
-            src="/images/grottes/grotte-pis-de-vache.jpg"
-            alt="Château de LAFORGE près Souillac (Lot)"
-            width={800}
-            height={500}
-            className="mx-auto rounded-lg border border-neutral-200"
-          />
-
-          <Image
-            src="/images/grottes/g d l f 7.jpg"
-            alt="Château de LAFORGE près Souillac (Lot)"
-            width={800}
-            height={500}
-            className="mx-auto rounded-lg border border-neutral-200"
-          />
+        {/* GALLERIE (lightbox) */}
+        <div className="pt-6 pb-6">
+          <Gallery images={galleryImages} />
         </div>
       </div>
     </main>

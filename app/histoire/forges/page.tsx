@@ -1,11 +1,39 @@
 import Image from "next/image";
 import Breadcrumbs from "../../components/breadcrumbs";
+import Gallery, { type GalleryImage } from "../../components/gallery";
 
 export const metadata = {
   title: "Les forges - Histoire & patrimoine - La Forge au fil du temps",
   description:
     "Découvrez l'histoire détaillée des forges de Bourzolles à Souillac, leur fonctionnement, leur production (artillerie, chaudières, objets domestiques), et l'histoire de leurs propriétaires successifs du XVIème au XIXème siècle.",
 };
+
+const galleryImages: GalleryImage[] = [
+  {
+    src: "/images/forges/plan forges 1828 bat + lég.jpg",
+    width: 1600,
+    height: 1000,
+    alt: "Château de LAFORGE près Souillac (Lot)",
+  },
+  {
+    src: "/images/forges/plan forges 1828 batiments.jpg",
+    width: 1600,
+    height: 1000,
+    alt: "Château de LAFORGE près Souillac (Lot)",
+  },
+  {
+    src: "/images/forges/plan forges 1828 légende.jpg",
+    width: 1600,
+    height: 1000,
+    alt: "Château de LAFORGE près Souillac (Lot)",
+  },
+  {
+    src: "/images/forges/plan-forges-1828-haut-fourneau.jpg",
+    width: 1600,
+    height: 1000,
+    alt: "Château de LAFORGE près Souillac (Lot)",
+  },
+];
 
 export default function TourPage() {
   return (
@@ -26,9 +54,9 @@ export default function TourPage() {
       <div className="mt-6 space-y-2 text-xl leading-relaxed pr-10 pl-10">
         <p>
           Encouragée par la politique économique et les privilèges accordés par
-          les rois successifs, l'activité de forge se développe en France à
+          les rois successifs, l&apos;activité de forge se développe en France à
           partir du 15<sup>ème</sup>
-          siècle, dans toutes les régions riches en cours d'eau, en bois et en
+          siècle, dans toutes les régions riches en cours d&apos;eau, en bois et en
           gisements ferrugineux.
         </p>
 
@@ -39,22 +67,22 @@ export default function TourPage() {
         </p>
 
         <p>
-          Elles étaient constituées, au départ, d'un haut fourneau et d'un
-          atelier de moulage pour la production et l'exploitation de la fonte.
+          Elles étaient constituées, au départ, d&apos;un haut fourneau et d&apos;un
+          atelier de moulage pour la production et l&apos;exploitation de la fonte.
         </p>
 
         <p>La production était utilisée&nbsp;:</p>
         <ul className="list-disc pl-6">
           <li>
-            au service du roi (pièces d'artillerie et boulets de canon en temps
+            au service du roi (pièces d&apos;artillerie et boulets de canon en temps
             de guerre)
           </li>
           <li>
             pour la compagnie des Indes et les colonies (des chaudières qui
-            servaient à l'exploitation de la canne à sucre)
+            servaient à l&apos;exploitation de la canne à sucre)
           </li>
           <li>
-            pour l'agriculture et le commerce (marmites, plaques de cheminées,
+            pour l&apos;agriculture et le commerce (marmites, plaques de cheminées,
             fers à gaufres, landiers, heurtoirs, pièces de charrettes…)
           </li>
         </ul>
@@ -77,7 +105,7 @@ export default function TourPage() {
 
         <p>
           Après des périodes diverses de prospérité et de crise, elles
-          atteignirent leur apogée de 1830 à 1845, grâce à la création d'une
+          atteignirent leur apogée de 1830 à 1845, grâce à la création d&apos;une
           affinerie pour la production de fer, autorisée par ordonnance royale
           le 13 mars 1828.
         </p>
@@ -95,53 +123,25 @@ export default function TourPage() {
 
         <ul className="list-none pl-0">
           <li>
-            <strong>Création :</strong> Seigneurs de Coustin jusqu'en 1725
+            <strong>Création :</strong> Seigneurs de Coustin jusqu&apos;en 1725
           </li>
           <li>
-            <strong>Vente :</strong> Sclafer de Clary jusqu'en 1775
+            <strong>Vente :</strong> Sclafer de Clary jusqu&apos;en 1775
           </li>
           <li>
-            <strong>Légataire :</strong> Joseph de Coustin jusqu'en 1792
+            <strong>Légataire :</strong> Joseph de Coustin jusqu&apos;en 1792
           </li>
           <li>
             <strong>Vente :</strong> Denis Deltheil
           </li>
           <li>
-            <strong>Légataire :</strong> Jean-Baptiste Deltheil jusqu'en 1869
+            <strong>Légataire :</strong> Jean-Baptiste Deltheil jusqu&apos;en 1869
           </li>
         </ul>
 
-        <div className="pt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
-          <Image
-            src="/images/forges/plan forges 1828 bat + lég.jpg"
-            alt="Château de LAFORGE près Souillac (Lot)"
-            width={800}
-            height={500}
-            className="mx-auto rounded-lg"
-          />
-          <Image
-            src="/images/forges/plan forges 1828 batiments.jpg"
-            alt="Château de LAFORGE près Souillac (Lot)"
-            width={800}
-            height={500}
-            className="mx-auto rounded-lg"
-          />
-
-          <Image
-            src="/images/forges/plan forges 1828 légende.jpg"
-            alt="Château de LAFORGE près Souillac (Lot)"
-            width={800}
-            height={500}
-            className="mx-auto rounded-lg"
-          />
-
-          <Image
-            src="/images/forges/plan-forges-1828-haut-fourneau.jpg"
-            alt="Château de LAFORGE près Souillac (Lot)"
-            width={800}
-            height={500}
-            className="mx-auto rounded-lg"
-          />
+        {/* GALLERIE (lightbox) */}
+        <div className="pt-6">
+          <Gallery images={galleryImages} />
         </div>
       </div>
     </main>
