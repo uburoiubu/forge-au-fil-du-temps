@@ -11,10 +11,12 @@ export default function TourPage() {
   return (
     <main className="min-h-screen text-justify">
       <Breadcrumbs />
-      <h1 className="text-5xl text-center pt-2 pr-6 pl-6">La grande maison et le parc</h1>
+      <h1 className="text-5xl text-center pt-2 pr-6 pl-6">
+        La grande maison et le parc
+      </h1>
       <div className="mt-6 space-y-2 text-xl leading-relaxed pr-10 pl-10">
         <p>
-          C'est <strong>Jean-Baptiste DELTHEIL</strong>, dernier maître des
+          C'est <strong>Jean-Baptiste Deltheil</strong>, dernier maître des
           forges de Bourzolles, qui fait bâtir la demeure en 1825.
         </p>
 
@@ -24,8 +26,8 @@ export default function TourPage() {
         </p>
 
         <p>
-          Le fer, d'un usage plus courant et d'une commercialisation plus facile
-          permet de nouveaux débouchés.
+          Le fer, d'un usage plus courant et d'une commercialisation plus
+          facile, permet de nouveaux débouchés.
         </p>
 
         <p>
@@ -40,7 +42,7 @@ export default function TourPage() {
 
         <p>
           Il y vit avec son épouse Anaïs (petite-fille d'Alexandre de
-          Bauharnais) et tous deux jouent un rôle social important sur la
+          Beauharnais) et tous deux jouent un rôle social important sur la
           commune de Souillac.
         </p>
 
@@ -55,13 +57,13 @@ export default function TourPage() {
         </p>
 
         <p>
-          C'est elle aussi, qui a souhaité l'aménagement d'une des grottes de la
-          propriété en chapelle dédiée à Notre-Dame de Sainte Espérance.
+          C'est elle aussi qui a souhaité l'aménagement d'une des grottes de la
+          propriété en chapelle dédiée à Notre-Dame de Sainte-Espérance.
         </p>
 
         <p>
-          En 1887, <strong>Julien VALAT</strong>, fils d'Edouard VALAT, ami et
-          homme de confiance du couple DELTHEIL rachète la propriété.
+          En 1887, <strong>Julien Valat</strong>, fils d'Édouard Valat, ami et
+          homme de confiance du couple Deltheil, rachète la propriété.
         </p>
 
         <p>
@@ -81,18 +83,18 @@ export default function TourPage() {
 
         <p>
           On y trouve une cheminée monumentale surmontée de la devise de la
-          famille :<em>Labora, profice, ora et spera</em>.
+          famille&nbsp;: <em>Labora, profice, ora et spera</em>.
         </p>
 
         <p>
           Cette salle accueillera les nombreux ouvrages littéraires collectés
-          par les familles DELTHEIL et VALAT.
+          par les familles Deltheil et Valat.
         </p>
 
         <p>
-          <strong>Marie-Anne LACOSTE</strong>, petite-fille de Julien VALAT,
+          <strong>Marie-Anne Lacoste</strong>, petite-fille de Julien Valat,
           crée en 1983 l'association <q>La Forge Patrimoine</q> et met à la
-          disposition du public cette magnifique bibliothèque !
+          disposition du public cette magnifique bibliothèque&nbsp;!
         </p>
 
         <p>
@@ -102,7 +104,7 @@ export default function TourPage() {
         </p>
 
         <p>
-          En décembre 2016, <strong>Virginie DESTREL</strong> rachète la
+          En décembre 2016, <strong>Virginie Destrel</strong> rachète la
           demeure, inhabitée depuis dix ans, et entreprend sa rénovation.
         </p>
 
