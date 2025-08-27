@@ -15,25 +15,25 @@ const galleryImages: GalleryImage[] = [
     src: "/images/grottes/grottes-cp-2.jpg",
     width: 1600,
     height: 1000,
-    alt: "Château de LAFORGE près Souillac (Lot)",
+    alt: "Château de Laforge près Souillac (Lot)",
   },
   {
     src: "/images/grottes/g d l f 25.jpg",
     width: 1600,
     height: 1000,
-    alt: "Château de LAFORGE près Souillac (Lot)",
+    alt: "Château de Laforge près Souillac (Lot)",
   },
   {
     src: "/images/grottes/g d l f 28.jpg",
     width: 1600,
     height: 1000,
-    alt: "Château de LAFORGE près Souillac (Lot)",
+    alt: "Château de Laforge près Souillac (Lot)",
   },
   {
     src: "/images/grottes/g d l f 29.jpg",
     width: 1600,
     height: 1000,
-    alt: "Château de LAFORGE près Souillac (Lot)",
+    alt: "Château de Laforge près Souillac (Lot)",
   },
 ];
 
@@ -47,8 +47,8 @@ export default function TourPage() {
       <div className="mt-6 space-y-2 text-xl leading-relaxed pr-10 pl-10">
         <p>
           Au milieu du XIX<sup>ème</sup> siècle, Monsieur Lecomte, père d&apos;Anaïs{" "}
-          <b>DELTHEIL</b> (1811–1887), épouse du dernier maître des forges, et
-          l&apos;abbé <b>PECHMEGE</b>, curé de Bourzolles, avaient l&apos;habitude de se
+          <b>Deltheil</b> (1811–1887), épouse du dernier maître des forges, et
+          l&apos;abbé <b>Péchmègé</b>, curé de Bourzolles, avaient l&apos;habitude de se
           promener dans les bois de la combe du Play.
         </p>
 
@@ -65,7 +65,7 @@ export default function TourPage() {
         </p>
 
         <p>
-          Anaïs DELTHEIL, qui voyageait souvent à Paris, avait une grande
+          Anaïs Deltheil, qui voyageait souvent à Paris, avait une grande
           dévotion à Notre Dame de Saint-Séverin, connue et honorée depuis 1840
           sous le titre d&apos;Immaculée Mère de la Sainte Espérance.
         </p>
@@ -101,8 +101,8 @@ export default function TourPage() {
         </p>
 
         <p>
-          En 1890, <b>Julien VALAT</b>, nouveau propriétaire de la Forge,
-          encouragé par Monsieur <b>TOUREILLE</b>, curé de Bourzolles, œuvra
+          En 1890, <b>Julien Valat</b>, nouveau propriétaire de la Forge,
+          encouragé par Monsieur <b>Toureille</b>, curé de Bourzolles, œuvra
           pour que la messe, les vêpres et la bénédiction du Saint-Sacrement
           puissent avoir lieu dans la grotte.
         </p>
@@ -135,7 +135,7 @@ export default function TourPage() {
         <p>
           Le pape <strong>Léon XIII</strong>, par lettre du 17 septembre de la
           même année, fixait au dernier dimanche de septembre la date du
-          pèlerinage, désignait Monsieur <strong>VERTU</strong>, curé de
+          pèlerinage, désignait Monsieur <strong>Vertu</strong>, curé de
           Souillac, pour la bénédiction du chemin de croix et autorisait la
           célébration de la messe dans le nouveau sanctuaire six fois par an.
         </p>

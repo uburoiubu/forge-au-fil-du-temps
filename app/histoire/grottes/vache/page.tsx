@@ -14,31 +14,31 @@ const galleryImages: GalleryImage[] = [
     src: "/images/grottes/grotte viré.jpg",
     width: 1600,
     height: 1000,
-    alt: "Château de LAFORGE près Souillac (Lot)",
+    alt: "Château de Laforge près Souillac (Lot)",
   },
   {
     src: "/images/grottes/fouilles-armand-vire.jpg",
     width: 1600,
     height: 1000,
-    alt: "Château de LAFORGE près Souillac (Lot)",
+    alt: "Château de Laforge près Souillac (Lot)",
   },
   {
     src: "/images/grottes/pis de vache 1.jpg",
     width: 1600,
     height: 1000,
-    alt: "Château de LAFORGE près Souillac (Lot)",
+    alt: "Château de Laforge près Souillac (Lot)",
   },
   {
     src: "/images/grottes/grotte-pis-de-vache.jpg",
     width: 1600,
     height: 1000,
-    alt: "Château de LAFORGE près Souillac (Lot)",
+    alt: "Château de Laforge près Souillac (Lot)",
   },
   {
     src: "/images/grottes/g d l f 7.jpg",
     width: 1600,
     height: 1000,
-    alt: "Château de LAFORGE près Souillac (Lot)",
+    alt: "Château de Laforge près Souillac (Lot)",
   },
 ];
 

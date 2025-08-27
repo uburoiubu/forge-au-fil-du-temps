@@ -17,14 +17,14 @@ export default async function Page() {
         <div className="mt-6 space-y-2 text-xl text-center pl-10 pr-10">
           <p>
             L'association a été créée en août 2018, sous l'impulsion de la
-            nouvelle propriétaire d'une partie du site, Virginie DESTREL, bien
+            nouvelle propriétaire d'une partie du site, Virginie Destrel, bien
             consciente de l'attachement de nombreux Souillagais à ce lieu et à
             son histoire, aussi bien humaine qu'industrielle: tout d'abord,
             l'usine de forge avec son bief et les vestiges du haut fourneau, la
             maison de maître et le parc. Ensuite, la première centrale
             hydroélectrique ayant alimenté Souillac, et les 3 grottes donc la
             grotte chapelle et les ruines de la tour médiévale «Rocafor,
-            appartenant à Florence LACOSTE.
+            appartenant à Florence Lacoste.
           </p>
 
           <p>

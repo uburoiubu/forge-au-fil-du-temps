@@ -9,11 +9,11 @@ export const metadata = {
 };
 
 const galleryImages: GalleryImage[] = [
-  { src: "/images/maison/cp-5-h.jpg", width: 1600, height: 1000, alt: "Château de LAFORGE près Souillac (Lot)" },
-  { src: "/images/maison/cp-2-h.jpg", width: 1600, height: 1000, alt: "Château de LAFORGE près Souillac (Lot)" },
-  { src: "/images/maison/cp-1-v.jpg", width: 1000, height: 1600, alt: "Château de LAFORGE près Souillac (Lot)" },
-  { src: "/images/maison/cp-3-v.jpg", width: 1000, height: 1600, alt: "Château de LAFORGE près Souillac (Lot)" },
-  { src: "/images/maison/cp-4-v.jpg", width: 1000, height: 1600, alt: "Château de LAFORGE près Souillac (Lot)" },
+  { src: "/images/maison/cp-5-h.jpg", width: 1600, height: 1000, alt: "Château de Laforge près Souillac (Lot)" },
+  { src: "/images/maison/cp-2-h.jpg", width: 1600, height: 1000, alt: "Château de Laforge près Souillac (Lot)" },
+  { src: "/images/maison/cp-1-v.jpg", width: 1000, height: 1600, alt: "Château de Laforge près Souillac (Lot)" },
+  { src: "/images/maison/cp-3-v.jpg", width: 1000, height: 1600, alt: "Château de Laforge près Souillac (Lot)" },
+  { src: "/images/maison/cp-4-v.jpg", width: 1000, height: 1600, alt: "Château de Laforge près Souillac (Lot)" },
   { src: "/images/maison/vue - v.jpg", width: 1000, height: 1600, alt: "Vue du parc" },
   { src: "/images/maison/parc/parc.jpg", width: 1600, height: 1000, alt: "Parc" },
   { src: "/images/maison/parc/parc neige.jpg", width: 1600, height: 1000, alt: "Parc sous la neige" },

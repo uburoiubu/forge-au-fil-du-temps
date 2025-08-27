@@ -14,25 +14,25 @@ const galleryImages: GalleryImage[] = [
     src: "/images/roquefort/tour-roquefort.jpg",
     width: 1600,
     height: 1000,
-    alt: "Château de LAFORGE près Souillac (Lot)",
+    alt: "Château de Laforge près Souillac (Lot)",
   },
   {
     src: "/images/roquefort/tour roquefort Viré gros plan.jpg",
     width: 1600,
     height: 1000,
-    alt: "Château de LAFORGE près Souillac (Lot)",
+    alt: "Château de Laforge près Souillac (Lot)",
   },
   {
     src: "/images/roquefort/tour roquefort Viré.jpg",
     width: 1600,
     height: 1000,
-    alt: "Château de LAFORGE près Souillac (Lot)",
+    alt: "Château de Laforge près Souillac (Lot)",
   },
   {
     src: "/images/roquefort/tour-roquefort-2.jpg",
     width: 1600,
     height: 1000,
-    alt: "Château de LAFORGE près Souillac (Lot)",
+    alt: "Château de Laforge près Souillac (Lot)",
   },
 ];
 
@@ -62,7 +62,7 @@ export default function TourPage() {
 
         <p>
           Son origine remonte probablement au XI<sup>ème</sup> siècle, à
-          l&apos;époque de la seigneurie des DE RIGNAC qui rendaient alors hommage au
+          l&apos;époque de la seigneurie des de Rignac qui rendaient alors hommage au
           Vicomte de Turenne.
         </p>
 

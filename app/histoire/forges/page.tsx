@@ -13,25 +13,25 @@ const galleryImages: GalleryImage[] = [
     src: "/images/forges/plan forges 1828 bat + lég.jpg",
     width: 1600,
     height: 1000,
-    alt: "Château de LAFORGE près Souillac (Lot)",
+    alt: "Château de Laforge près Souillac (Lot)",
   },
   {
     src: "/images/forges/plan forges 1828 batiments.jpg",
     width: 1600,
     height: 1000,
-    alt: "Château de LAFORGE près Souillac (Lot)",
+    alt: "Château de Laforge près Souillac (Lot)",
   },
   {
     src: "/images/forges/plan forges 1828 légende.jpg",
     width: 1600,
     height: 1000,
-    alt: "Château de LAFORGE près Souillac (Lot)",
+    alt: "Château de Laforge près Souillac (Lot)",
   },
   {
     src: "/images/forges/plan-forges-1828-haut-fourneau.jpg",
     width: 1600,
     height: 1000,
-    alt: "Château de LAFORGE près Souillac (Lot)",
+    alt: "Château de Laforge près Souillac (Lot)",
   },
 ];
 
