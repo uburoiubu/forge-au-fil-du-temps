@@ -98,7 +98,7 @@ export default function HistoryPage() {
       </div>
       <section className="mt-12 px-10">
         <h2 className="text-3xl font-semibold mb-6 text-center">
-          Pour aller plus loin
+          Pour en savoir plus
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <Link
