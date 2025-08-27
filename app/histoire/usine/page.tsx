@@ -12,17 +12,19 @@ export default function UsinePage() {
   return (
     <main className="min-h-screen text-justify">
       <Breadcrumbs />
+      <div className="w-full relative h-[25vh] sm:h-[300px] md:h-[400px]">
+        <Image
+          src="/images/usine/photo usine.jpg"
+          alt="Plafond de la maison du maître"
+          fill
+          className="object-cover"
+          priority
+        />
+      </div>
       <h1 className="text-5xl text-center p-6">
-        L'usine électrique Sainte Thérèse à La Forge (Souillac)
+        L'usine électrique Sainte Thérèse à La Forge
       </h1>
-      <Image
-        src="/images/usine.jpg"
-        alt="Château de LAFORGE près Souillac (Lot)"
-        width={800}
-        height={500}
-        className="mx-auto rounded-lg pr-12 pl-12"
-      />
-      <div className="mt-6 space-y-2 text-xl leading-relaxed pr-10 pl-10">
+      <div className="space-y-2 text-xl leading-relaxed pr-10 pl-10">
         <p>
           En 1897, sur l'emplacement de l'ancienne forge dont il utilise la
           chute d'eau, Julien Valat crée une petite usine électrique pour
@@ -176,6 +178,14 @@ export default function UsinePage() {
 
           <Image
             src="/images/usine/photo intérieur usine électrique.jpg"
+            alt="Château de LAFORGE près Souillac (Lot)"
+            width={800}
+            height={500}
+            className="mx-auto rounded-lg border border-neutral-200"
+          />
+
+          <Image
+            src="/images/usine.jpg"
             alt="Château de LAFORGE près Souillac (Lot)"
             width={800}
             height={500}
