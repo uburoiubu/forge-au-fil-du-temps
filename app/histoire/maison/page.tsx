@@ -11,6 +11,15 @@ export default function TourPage() {
   return (
     <main className="min-h-screen text-justify">
       <Breadcrumbs />
+      <div className="w-full relative h-[25vh] sm:h-[300px] md:h-[400px]">
+        <Image
+          src="/images/maison/cp-2-h.jpg"
+          alt="Plafond de la maison du maître"
+          fill
+          className="object-cover"
+          priority
+        />
+      </div>
       <h1 className="text-5xl text-center pt-2 pr-6 pl-6">
         La grande maison et le parc
       </h1>
@@ -113,6 +122,103 @@ export default function TourPage() {
           de valoriser le patrimoine historique et immobilier du site et de
           l'animer artistiquement et culturellement.
         </p>
+
+        <div className="pt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
+          <Image
+            src="/images/maison/cp-5-h.jpg"
+            alt="Château de LAFORGE près Souillac (Lot)"
+            width={800}
+            height={500}
+            className="mx-auto rounded-lg"
+          />
+          <Image
+            src="/images/maison/cp-2-h.jpg"
+            alt="Château de LAFORGE près Souillac (Lot)"
+            width={800}
+            height={500}
+            className="mx-auto rounded-lg"
+          />
+
+          <Image
+            src="/images/maison/cp-1-v.jpg"
+            alt="Château de LAFORGE près Souillac (Lot)"
+            width={800}
+            height={500}
+            className="mx-auto rounded-lg"
+          />
+
+          <Image
+            src="/images/maison/cp-3-v.jpg"
+            alt="Château de LAFORGE près Souillac (Lot)"
+            width={800}
+            height={500}
+            className="mx-auto rounded-lg"
+          />
+
+          <Image
+            src="/images/maison/cp-4-v.jpg"
+            alt="Château de LAFORGE près Souillac (Lot)"
+            width={800}
+            height={500}
+            className="mx-auto rounded-lg"
+          />
+
+          <Image
+            src="/images/maison/vue - v.jpg"
+            alt="Château de LAFORGE près Souillac (Lot)"
+            width={800}
+            height={500}
+            className="mx-auto rounded-lg"
+          />
+
+          <Image
+            src="/images/maison/parc/parc.jpg"
+            alt="Château de LAFORGE près Souillac (Lot)"
+            width={800}
+            height={500}
+            className="mx-auto rounded-lg"
+          />
+
+          <Image
+            src="/images/maison/parc/parc neige.jpg"
+            alt="Château de LAFORGE près Souillac (Lot)"
+            width={800}
+            height={500}
+            className="mx-auto rounded-lg"
+          />
+
+          <Image
+            src="/images/maison/parc/parc 2.jpg"
+            alt="Château de LAFORGE près Souillac (Lot)"
+            width={800}
+            height={500}
+            className="mx-auto rounded-lg"
+          />
+
+          <Image
+            src="/images/maison/route/route bis.jpg"
+            alt="Château de LAFORGE près Souillac (Lot)"
+            width={800}
+            height={500}
+            className="mx-auto rounded-lg"
+          />
+
+          <Image
+            src="/images/maison/route/route + drt.jpg"
+            alt="Château de LAFORGE près Souillac (Lot)"
+            width={800}
+            height={500}
+            className="mx-auto rounded-lg"
+          />
+
+          <Image
+            src="/images/maison/grande allée.jpg"
+            alt="Château de LAFORGE près Souillac (Lot)"
+            width={800}
+            height={500}
+            className="mx-auto rounded-lg"
+          />
+        </div>
       </div>
     </main>
   );

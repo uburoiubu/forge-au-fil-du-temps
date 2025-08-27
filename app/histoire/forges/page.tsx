@@ -21,7 +21,7 @@ export default function TourPage() {
         />
       </div>
       <h1 className="text-5xl text-center pt-6 pr-6 pl-6">
-        Les Forges de Bourzolles
+        Les forges de Bourzolles
       </h1>
       <div className="mt-6 space-y-2 text-xl leading-relaxed pr-10 pl-10">
         <p>
