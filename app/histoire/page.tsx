@@ -124,10 +124,10 @@ export default function HistoryPage() {
           >
             <div className="relative h-48">
               <Image
-                src="/images/maison/maison-cover-compressed.jpeg"
+                src="/images/maison/cp-2-h.jpg"
                 alt="Maison La Forge"
                 fill
-                className="object-cover transition-transform group-hover:scale-105"
+                className="object-cover transition-transform group-hover:scale-105 object-[90%_10%]"
               />
             </div>
             <div className="p-4">

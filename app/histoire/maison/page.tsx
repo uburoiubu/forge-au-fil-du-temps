@@ -16,11 +16,11 @@ export default function TourPage() {
           src="/images/maison/cp-2-h.jpg"
           alt="Plafond de la maison du maître"
           fill
-          className="object-cover"
+          className="object-cover object-[90%_10%]"
           priority
         />
       </div>
-      <h1 className="text-5xl text-center pt-2 pr-6 pl-6">
+      <h1 className="text-5xl text-center pt-6 pr-6 pl-6">
         La grande maison et le parc
       </h1>
       <div className="mt-6 space-y-2 text-xl leading-relaxed pr-10 pl-10">
