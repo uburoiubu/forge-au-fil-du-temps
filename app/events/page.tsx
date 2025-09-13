@@ -45,8 +45,8 @@ export default function EventsPage() {
                 Journées européeenes du patrimoine à la Forge
               </h3>
               <p className="text-base mt-1">
-                Venez visiter le site des anciennes forges, entrée libre et
-                panneaux expliquatifs.
+                20-21 septembre 2025, de 10h à 18h. Entrée libre, 
+                panneaux expliquatifs. Venez visiter le site des anciennes forges.
               </p>
             </div>
           </Link>
