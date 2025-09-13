@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const metadata = {
   title:
-    "Journées européeenes de patrimoine à la Forge - Événements - La Forge au fil du temps",
+    "Journées européeenes du patrimoine à la Forge - Événements - La Forge au fil du temps",
   description: "Journées européeenes de patrimoine à la Forge",
 };
 
@@ -27,6 +27,28 @@ export default function PatrimoineEventPage() {
               ouvrages anciens ayant appartenus à Julien Valat, ancien
               propriétaire du site à l'origine de la centrale hydroélectrique.
               Merci à la bibliothèque de Souillac pour ces prêts.
+            </span>
+          </p>
+        </section>
+
+        <section className="event-info" aria-labelledby="event-details">
+          <p className="text-2xl text-center pt-6 pr-6 pl-6 pb-2">
+            <span className="event-opening">
+              Vous pourrez aussi découvrir une exposition de photos sur le
+              patrimoine architectural local. Ces photos prises par Armand Viré
+              et Ernest Rupin sont issues du "Fonds la Forge, Marie Anne Valat
+              Lacoste".
+            </span>
+          </p>
+        </section>
+
+        <section className="event-info" aria-labelledby="event-details">
+          <p className="text-2xl text-center pt-6 pr-6 pl-6 pb-2">
+            <span className="event-opening">
+              Vous pourrez aussi consulter des ouvrages anciens ayant appartenus
+              à Julien Valat, ancien propriétaire du site à l'origine de la
+              centrale hydroélectrique. Merci à la bibliothèque de Souillac pour
+              ces prêts.
             </span>
           </p>
         </section>
