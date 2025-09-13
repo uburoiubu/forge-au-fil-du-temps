@@ -3,7 +3,8 @@ import Link from "next/link";
 
 export const metadata = {
   title: "Événements & Activités - La Forge au fil du temps",
-  description: "Découvrez les événements culturels, expositions et activités organisés à la Forge de Bourzolles à Souillac. Restez informé des prochaines manifestations."
+  description:
+    "Découvrez les événements culturels, expositions et activités organisés à la Forge de Bourzolles à Souillac. Restez informé des prochaines manifestations.",
 };
 
 export default function EventsPage() {
@@ -27,6 +28,29 @@ export default function EventsPage() {
       <section className="px-10">
         <h2 className="text-3xl font-semibold mb-6 text-center">Septembre</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <Link
+            href="/events/2025/patrimoine-20-09"
+            className="group block rounded-lg overflow-hidden border border-neutral-200 dark:border-neutral-800 hover:shadow-md transition"
+          >
+            <div className="relative h-48">
+              <Image
+                src="/images/events/AFFICHE 20_21 sept FORGE.jpg"
+                alt="Les forges à Souillac"
+                fill
+                className="object-cover transition-transform group-hover:scale-105"
+              />
+            </div>
+            <div className="p-4">
+              <h3 className="text-xl font-semibold">
+                Journées européeenes du patrimoine à la Forge
+              </h3>
+              <p className="text-base mt-1">
+                Venez visiter le site des anciennes forges, entrée libre et
+                panneaux expliquatifs.
+              </p>
+            </div>
+          </Link>
+
           <Link
             href="/events/2025/renvoise-05-09"
             className="group block rounded-lg overflow-hidden border border-neutral-200 dark:border-neutral-800 hover:shadow-md transition"
