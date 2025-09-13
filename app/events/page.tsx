@@ -65,7 +65,7 @@ export default function EventsPage() {
               />
             </div>
             <div className="p-4">
-              <h3 className="text-xl font-semibold">Soirée occitane.</h3>
+              <h3 className="text-xl font-semibold">Soirée occitane</h3>
               <p className="text-base mt-1">
                 Soirée occitane à Lachapelle Auzac, samedi 20 septembre à partir
                 de 16h.
