@@ -45,8 +45,30 @@ export default function EventsPage() {
                 Journées européeenes du patrimoine à la Forge
               </h3>
               <p className="text-base mt-1">
-                20-21 septembre 2025, de 10h à 18h. Entrée libre, 
-                panneaux expliquatifs. Venez visiter le site des anciennes forges.
+                Les 20 et 21 septembre 2025, de 10 h à 18 h. Entrée libre,
+                panneaux explicatifs. Venez visiter le site des anciennes
+                forges.
+              </p>
+            </div>
+          </Link>
+
+          <Link
+            href="/events/2025/occitane-20-09"
+            className="group block rounded-lg overflow-hidden border border-neutral-200 dark:border-neutral-800 hover:shadow-md transition"
+          >
+            <div className="relative h-48">
+              <Image
+                src="/images/events/affiche soirée occitane.jpg"
+                alt="Les forges à Souillac"
+                fill
+                className="object-cover transition-transform group-hover:scale-105"
+              />
+            </div>
+            <div className="p-4">
+              <h3 className="text-xl font-semibold">Soirée occitane.</h3>
+              <p className="text-base mt-1">
+                Soirée occitane à Lachapelle Auzac, samedi 20 septembre à partir
+                de 16h.
               </p>
             </div>
           </Link>
