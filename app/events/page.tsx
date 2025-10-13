@@ -8,10 +8,46 @@ export const metadata = {
     "Découvrez les événements culturels, expositions et activités organisés à la Forge de Bourzolles à Souillac. Restez informé des prochaines manifestations.",
 };
 
+const octoberImages2: GalleryImage[] = [
+  {
+    src: "/images/events/oct-2025/Affiche A3 ORLANDO CUEILLE.jpg",
+    width: 1600,
+    height: 1000,
+    alt: "Affiche A3 ORLANDO CUEILLE",
+  },
+  {
+    src: "/images/events/oct-2025/Expo.png",
+    width: 1600,
+    height: 1000,
+    alt: "Capture d_écran 2025-10-01 204907",
+  },
+  {
+    src: "/images/events/oct-2025/Expo-plus.png",
+    width: 1600,
+    height: 1000,
+    alt: "Château de Laforge près Souillac (Lot)",
+  },
+];
+
 const octoberImages: GalleryImage[] = [
-  { src: "/images/events/oct-2025/AFFICHE ISRAEL.jpg", width: 1600, height: 1000, alt: "Château de Laforge près Souillac (Lot)" },
-  { src: "/images/events/oct-2025/affiche varia voce (1).jpg", width: 1600, height: 1000, alt: "Château de Laforge près Souillac (Lot)" },
-  { src: "/images/events/oct-2025/Gilles Favier_Jeannette Mac Donald SOUILLAC.jpg", width: 1000, height: 1600, alt: "Château de Laforge près Souillac (Lot)" },
+  {
+    src: "/images/events/oct-2025/AFFICHE ISRAEL.jpg",
+    width: 1600,
+    height: 1000,
+    alt: "Château de Laforge près Souillac (Lot)",
+  },
+  {
+    src: "/images/events/oct-2025/affiche varia voce (1).jpg",
+    width: 1600,
+    height: 1000,
+    alt: "Château de Laforge près Souillac (Lot)",
+  },
+  {
+    src: "/images/events/oct-2025/Gilles Favier_Jeannette Mac Donald SOUILLAC.jpg",
+    width: 1000,
+    height: 1600,
+    alt: "Château de Laforge près Souillac (Lot)",
+  },
 ];
 
 export default function EventsPage() {
@@ -34,6 +70,30 @@ export default function EventsPage() {
       {/* October section */}
       <section className="px-10">
         <h2 className="text-3xl font-semibold mb-6 text-center">Octobre</h2>
+
+        <p className="text-xl mt-1 mb-8">
+          Nous vous partageons quelques propositions artistiques et culturelles
+          pour les jours à venir: Laurette, proposition des Films du Genièvre
+          Exposition à Bannes, proposition de Cam'Del Art, et un concert rock à
+          Théminettes Dans le cadre des journées portes ouvertes d'Artistes les
+          11 et 12 octobre, Pascale Thérondel, peintre, vous accueille au 630
+          route de laborie, 46200 LANZAC, Nicolas Miallet, sculpteur,au 734
+          chemin notre Dame des Neiges, 46600 Cressensac-Sarrazac, et Sophie
+          Beaucourt, arts plastiques, au 380 route de la Dordogne, 46200
+          Meyronne. Une exposition à l'espace Orlando dans le cadre du festival
+          Résurgence.( Voir lien affche en bas) Et pour ce w-e, une visite des
+          fermes de Lachapelle Auzac, 9h Gaec des Champs-Bons, 11h le gouffre de
+          Blagour, 14h,la Forge Gourmande. Proposition de repas concocté avec
+          les produits de la ferme 12€ sur inscription. La Forge sera ouverte
+          aussi pour cette journée en plus de l'expo "Jeannette Mac Donald".
+        </p>
+
+        <div className="pt-6 pb-6">
+          <Gallery images={octoberImages2} />
+        </div>
+
+        <p className="text-xl mt-1 mb-8">***</p>
+
         <p className="text-xl mt-1 mb-8">
           <strong>Samedi 4</strong> dans le cadre du Festival Resurgence,
           vernissage "brunch" de l'exposition de photos de Gilles Favier
@@ -59,7 +119,6 @@ export default function EventsPage() {
         <div className="pt-6 pb-6">
           <Gallery images={octoberImages} />
         </div>
-
       </section>
 
       {/* September section */}
