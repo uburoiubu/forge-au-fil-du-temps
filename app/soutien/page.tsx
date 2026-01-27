@@ -79,7 +79,7 @@ export default async function Page() {
 
           <div className="mt-8 text-center mb-16">
             <a
-              href="https://la-forge-au-fil-du-temps.assoconnect.com/collect/description/599549-a-adhesions-annuelles"
+              href="https://la-forge-au-fil-du-temps.assoconnect.com/collect/description/660860-a-la-forge-au-fil-du-temps-adhesions-annuelles"
               className="inline-flex items-center px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white text-lg font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
             >
               <svg
