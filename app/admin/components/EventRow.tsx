@@ -1,7 +1,7 @@
 'use client'
 
 import Link from 'next/link'
-import { useTransition } from 'react'
+import { useState, useTransition } from 'react'
 import { deleteEvent } from '../actions'
 
 type Event = {
@@ -13,9 +13,9 @@ type Event = {
 
 export default function EventRow({ event }: { event: Event }) {
   const [isPending, startTransition] = useTransition()
+  const [confirming, setConfirming] = useState(false)
 
-  function handleDelete() {
-    if (!confirm(`Supprimer "${event.title}" ? Cette action est irréversible.`)) return
+  function handleDeleteConfirmed() {
     startTransition(async () => {
       await deleteEvent(event.id)
     })
@@ -28,6 +28,30 @@ export default function EventRow({ event }: { event: Event }) {
         year: 'numeric',
       })
     : '—'
+
+  if (confirming) {
+    return (
+      <div className="bg-red-50 dark:bg-red-950 border border-red-200 dark:border-red-800 rounded-lg px-5 py-4 flex items-center gap-4">
+        <p className="flex-1 text-sm text-red-700 dark:text-red-300">
+          Supprimer <strong>«&nbsp;{event.title}&nbsp;»</strong> ? Cette action est irréversible.
+        </p>
+        <button
+          onClick={handleDeleteConfirmed}
+          disabled={isPending}
+          className="shrink-0 text-sm font-medium bg-red-600 hover:bg-red-700 text-white px-3 py-1.5 rounded-lg disabled:opacity-50 transition"
+        >
+          {isPending ? '…' : 'Oui, supprimer'}
+        </button>
+        <button
+          onClick={() => setConfirming(false)}
+          disabled={isPending}
+          className="shrink-0 text-sm text-neutral-500 dark:text-neutral-400 hover:text-neutral-700 dark:hover:text-neutral-200 transition"
+        >
+          Annuler
+        </button>
+      </div>
+    )
+  }
 
   return (
     <div
@@ -53,9 +77,8 @@ export default function EventRow({ event }: { event: Event }) {
         Modifier
       </Link>
       <button
-        onClick={handleDelete}
-        disabled={isPending}
-        className="shrink-0 text-sm text-red-500 hover:text-red-700 disabled:opacity-50 transition"
+        onClick={() => setConfirming(true)}
+        className="shrink-0 text-sm text-red-500 hover:text-red-700 transition"
       >
         Supprimer
       </button>
